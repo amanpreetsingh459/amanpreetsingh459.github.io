@@ -10,5 +10,5 @@ title: Contact
 #### Would love to connect with you all.
 
 #### Thanks..
-<br>
-### Amanpreet Singh
+
+### Wizard..
