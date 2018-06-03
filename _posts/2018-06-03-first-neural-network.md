@@ -1,7 +1,6 @@
 ---
 layout: post
-title: The Learning Process
-description: Creating learning through neural networks in machines
+title: Creating learning through neural networks in machines
 ---
 
 ## How do the humans learn - The concept of intelligence
@@ -64,11 +63,9 @@ class NeuralNetwork():
             delta = error * output_derivative
             weight_deltas = np.dot(train_inputs.T, delta)
             self.weights += weight_deltas
-            #if count%300 == 0:
-                #print("Logits : {0}".format(output))
-                #print("Weight values: {0}".format(self.weights))
-            
-            #self.printValues()
+            if count%300 == 0:
+                print("Logits : {0}".format(output))
+                print("Weight values: {0}".format(self.weights))                        
             
     def calculate_logits(self, train_inputs):
         return self.__sigmoid(np.dot(train_inputs, self.weights))
@@ -105,6 +102,7 @@ if __name__ == "__main__":
     main()
 
 ```
+
 ### Endnotes
 
 This idea of using perceptrons to make the neural networks learn was not very popular earlier as there was neither enough data available nor there was enough computing power. But in recent years as we have seen the explosion in data and also in computing power the neural networks have proven to be really great performers to solve the tasks that only humans could do. It made possible by taking massive data and made the neural network several layers deep. An artificial neural network doesn't really exist in physical space. It's an abstract concept we have created programmatically its represented on silicon transistors. Although they are completely different from the exact functioning of the human brain. they both use very similar approach for the learnning.
