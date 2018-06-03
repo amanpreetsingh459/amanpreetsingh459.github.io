@@ -38,7 +38,7 @@ This process of iteratively chainging the weights based upon its output values i
 
 ## Building our own artificial neural network
 
-The stage is set. We are ready to make create our own sigle layer neural network. The prerequisites is only the knowledge of basic python syntax.
+The stage is set. We are ready to create our own sigle layer neural network. The prerequisites is only the knowledge of basic python syntax.
 
 ```python
 import numpy as np
