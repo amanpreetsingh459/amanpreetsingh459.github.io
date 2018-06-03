@@ -68,11 +68,7 @@ class NeuralNetwork():
                 print("Weight values: {0}".format(self.weights))                        
             
     def calculate_logits(self, train_inputs):
-        return self.__sigmoid(np.dot(train_inputs, self.weights))
-    
-    def printValues(self):
-        print("Weight shape : {0}".format(self.weights.shape))
-        print("Weight values : {0}".format(self.weights))            
+        return self.__sigmoid(np.dot(train_inputs, self.weights))               
 
 ```
 
