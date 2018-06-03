@@ -3,10 +3,12 @@ layout: page
 title: Contact
 ---
 
-#### Contact me through Email, GitHub, Twitter or Linkedin from the links provided below the page.
+#### Contact me through Email, GitHub or Twitter from the links provided below the page.
+
+### <a href="https://www.linkedin.com/in/amanpreet-singh-62852770/" target="_blank">Connect me on LinkedIn</a>
 
 #### Would love to connect with you all.
 
 #### Thanks..
-
+<br>
 ### Amanpreet Singh
