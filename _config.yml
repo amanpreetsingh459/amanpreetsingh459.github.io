@@ -1,0 +1,13 @@
+title: Amanpreet Singh
+author: Amanpreet Singh
+email: amanpreetsingh459@gmail.com
+description: An Artificial Intelligence Wizard's Blog
+twitter_username: amanpreet_hmh
+github_username: amanpreetsingh459
+
+#Build settings
+markdown: kramdown
+theme: minima
+
+#Build settings
+markdown: kramdown
