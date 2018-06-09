@@ -8,7 +8,7 @@ title: What makes the Deep Learning "Deep"? The notion of multiple layers in dee
 
 Besides the biological inspiration from human mind, the neural networks actually are the universal function approximators. They just compute a mathematical function. They take several inputs, process them through multiple neurons from 0 or more hidden layers and return the result using an output layer. Below image depicts the structure of a neural network with 0 and 1 hidden layer-- 
 
-<img src="_images/blog2_n1.JPG" alt="drawing" width="600px"/>
+<img src="_images/_blog2/blog2_n1.JPG" alt="drawing" width="600px"/>
 
 ## Building blocks of a neural-network
 #### 1. Perceptron  : - 
@@ -23,13 +23,13 @@ Bias defines the flexibility of perceptrons. It's just a constant value which ad
 > **linear equation:** y = mx + b
 
 Below is the picture of neural-network depicting the building blocks: - 
-<img src="_images/blog2_n2.JPG" alt="drawing" width="600px"/>
+<img src="_images/_blog2/blog2_n2.JPG" alt="drawing" width="600px"/>
 
 ## Multi Layer Perceptrons (MLP)
 
 An MLP consists of the multiple hidden layers stacked between the input and the output layer. See the below picture having 2 hidden layers: - 
 
-<img src="_images/blog2_n3.JPG" alt="drawing" width="600px"/>
+<img src="_images/_blog2/blog2_n3.JPG" alt="drawing" width="600px"/>
 
 The notion is: every neuron in a single layer is connected with each of the neurons in its subsequent layer. i. e. in the above picture each of the 3 neurons in layer x will be connected with all the 4 neurons in h1 layer thus making total 3 x 4 = 12 connections, each of the 4 neurons in layer h1 will be connected with all the 2 neurons in h2 layer thus making total 4 x 4 = 16 connections and so on till the layers go on. **From this stacking of the layers one-after-the-other** only **deep learning** got the word **deep** in its name.
 
@@ -127,7 +127,7 @@ print(np.sum(bias_hidden2_to_output))
     
 #### Below is the graphical representation of our neural network
 
-<img src="_images/blog2_neural_network_image.JPG" alt="drawing" width="600px"/>
+<img src="_images/_blog2/blog2_neural_network_image.JPG" alt="drawing" width="600px"/>
 
 For the simplicity in the picture i have not added all the links from one layer to another.
 
