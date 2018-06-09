@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What makes the Deep Learning "Deep"? The notion of multiple layers in deep neural networks and backpropagation.
+title: What makes the Deep Learning "Deep"? The notion of multiple layers in deep neural networks and backpropagation
 
 ---
 
@@ -70,30 +70,7 @@ X=np.array([[1,0,1,0],[1,0,1,1],[0,1,0,1]])
 #Output
 y=np.array([[1],[1],[0]])
 ```
-
-
-```python
-print(np.sum(y))
-print(np.sum(y, axis = 0))
-print(np.sum(y, axis = 0, keepdims=True))
-```
-
-    2
-    [2]
-    [[2]]
     
-
-
-```python
-print(X.shape)
-print(y.shape)
-```
-
-    (3, 4)
-    (3, 1)
-    
-
-
 ```python
 #Sigmoid Function
 def sigmoid (x):
@@ -147,26 +124,7 @@ print(np.sum(bias_hidden2_to_output))
     5.58110257009
     1.04814751225
     
-
-
-```python
-print(weights_input_to_hidden1.shape)
-print(weights_hidden1_to_hidden2.shape)
-print(weights_hidden2_to_output.shape)
-
-print(bias_input_to_hidden1.shape)
-print(bias_hidden1_to_hidden2.shape)
-print(bias_hidden2_to_output.shape)
-```
-
-    (4, 5)
-    (5, 5)
-    (5, 1)
-    (1, 5)
-    (1, 5)
-    (1, 1)
     
-
 #### Below is the graphical representation of our neural network
 
 <img src="_images/blog2_neural_network_image.JPG" alt="drawing" width="600px"/>
@@ -221,17 +179,6 @@ for i in range(epoch):
     
 
 Here we can see that after every 1000 iterations the error is coming down. That is what the learning is. Below are the changes in the weights from start till last iteration and the outputs actual and learnt.
-
-
-```python
-print(hidden_layer1_activations.shape)
-print(hidden_layer2_activations.shape)
-print(output_layer_activations.shape)
-```
-
-    (3, 5)
-    (3, 5)
-    (3, 1)
     
 
 #### Comparisons between initial weights and learnt weights, initial biases and learnt biases
@@ -244,8 +191,6 @@ print(output_layer_activations.shape)
 | bias_input_to_hidden1           | -0.691616944068   | -1.59037685196 |
 | bias_hidden1_to_hidden2         | 5.58110257009     | 6.57941831296  |
 | bias_hidden2_to_output          | 1.04814751225     | 2.33347094143  |
-
-As the starting weights are randomnly selected so 
 
 
 ```python
@@ -264,12 +209,7 @@ print(np.sum(bias_hidden2_to_output))
     -8.00229057249
     -1.59037685196
     6.57941831296
-    2.33347094143
-    
-
-    1.04814751225
-
-
+    2.33347094143    
 
 #### Comparisons between actual outputs learnt outputs
 
@@ -282,14 +222,5 @@ print(np.sum(bias_hidden2_to_output))
 
 ```python
 print(y)
-```
-
-    [[1]
-     [1]
-     [0]]
-    
-
-
-```python
 print(output_layer_activations)
 ```
