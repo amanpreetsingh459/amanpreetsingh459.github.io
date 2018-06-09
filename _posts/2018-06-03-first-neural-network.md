@@ -20,7 +20,7 @@ We may be not too far to solve these problems as of today. But the knowledge lev
 
 So suppose if at this point of time we face one of the threats mentioned above and human species comes to its extinction level. Then whatever or whoever remains, the people or creatures, what amount of knowledge they would have left with comparing with what we have today so that they could create the life again? Not very!
 
-But what if we could harness this already possessed knowledge, what if we could store it in some way and find a way too to access it by the upcoming generations or species. The idea to make  an artifial brain and have it run on a non-biological substrate like silicon(why silicon? because modern computers which are the great storage systems run on silicon based systems itself!). We can give it tremendous computing power and lots of data too and have it solve the problems thousands or millions times faster than a human would solve it alone.
+But what if we could harness this already possessed knowledge, what if we could store it in some way and find a way too to access it by the upcoming generations or species. The idea to make  an artificial brain and have it run on a non-biological substrate like silicon(why silicon? because modern computers which are the great storage systems run on silicon based systems itself!). We can give it tremendous computing power and lots of data too and have it solve the problems thousands or millions times faster than a human would solve it alone after learning from scratch.
 
 ## Something about history of neural networks
 
