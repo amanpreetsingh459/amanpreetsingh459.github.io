@@ -9,7 +9,7 @@ title: What makes the Deep Learning "Deep"? The notion of multiple layers in dee
 Besides the biological inspiration from human mind, the neural networks actually are the universal function approximators. They just compute a mathematical function. They take several inputs, process them through multiple neurons from 0 or more hidden layers and return the result using an output layer. Below image depicts the structure of a neural network with 0 and 1 hidden layer-- 
 
 #<img src="_images/_blog2/blog2_n1.JPG" alt="drawing" width="600px"/>
-<img src="https://github.com/amanpreetsingh459/amanpreetsingh459.github.io/tree/master/_posts/_images/_blog2/blog2_n1.JPG" alt="drawing" width="600px"/>
+<img src="https://github.com/amanpreetsingh459/amanpreetsingh459.github.io/tree/master/_posts/_images/_blog2/blog2_n1.JPG" alt="image" width="600px"/>
 
 ## Building blocks of a neural-network
 #### 1. Perceptron  : - 
