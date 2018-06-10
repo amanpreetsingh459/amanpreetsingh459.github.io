@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What makes the Deep Learning really "Deep"? Multiple layers and backpropagation'
+title: 'What makes the Deep Learning "Deep"? Multiple layers and backpropagation'
 
 ---
 
