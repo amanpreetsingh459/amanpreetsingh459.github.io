@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What makes the Deep Learning really "Deep"? The notion of multiple layers in deep neural networks and backpropagation
+title: 'What makes the Deep Learning really "Deep"? The notion of multiple layers in deep neural networks and backpropagation'
 
 ---
 
