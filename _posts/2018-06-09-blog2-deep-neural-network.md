@@ -1,9 +1,7 @@
 ---
 layout: post
-comments: true
-title: What makes the Deep Learning really "Deep"?
-excerpt: The notion of multiple layers in deep neural networks, gradient-descent, backpropagation, activation function.
-mathjax: true
+title: What makes the Deep Learning really "Deep"? The notion of multiple layers in deep neural networks and backpropagation
+
 ---
 
 ## Definition of a neural-network
