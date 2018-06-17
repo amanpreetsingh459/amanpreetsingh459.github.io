@@ -22,7 +22,7 @@ There's so much we could potentially do to our data. We are going to discover fe
 ### Scaling the data between 0 and 1
 Scaling is the method to limit the range of variables so that they can be compared on common grounds. It is performed on continuous variables. Often we rescale the features into the range between 0 and 1. This is useful for many optimization algorithms such as gradient-descent. It is also useful for the algorithms where we supply weighted inputs like in neural-networks.
 
-Python provides scikit-learn library for the data preprocessing. We will be using the same. The full code for this blog can b found at ** <a href="github.com">this</a> ** github link.
+Python provides scikit-learn library for the data preprocessing. We will be using the same. The full code for this blog can b found at ** <a href="https://github.com/amanpreetsingh459/blog-posts-code-repository/blob/master/2018-06-17-blog3-data-preprocessing.ipynb">this</a> ** github link.
 
 Below is the plot of the raw data which we have: - 
 
@@ -104,6 +104,7 @@ Let's plot the graph with normalized data:
 
 
 ## Endnotes:
+
 The aim of this blog is to introduce you with the basic data pre-processing techniques and have a understanding of the practical aspects to apply those techniques.
 
 These methods work because of the underlying assumptions of the algorithms. This is by no means an exhaustive list of the methods. It is advised to experiment with these methods since they can be heavily modified according to the problem at hand.
