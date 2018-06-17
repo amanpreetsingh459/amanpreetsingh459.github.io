@@ -12,7 +12,7 @@ As of today the sources of data generation are more than ever before. Most of th
 So to make a Machine Learning or Deep Learning algorithm to work we need to feed in the data (lots of data for neural-network based algorithms). That data cannot be fed into an algorithm as it was generated. That needs to be in the form that a machine/deep learning algorithm could understand. We are going to discuss some of the ways to prepare data to be fed into an algorithm.
 
 ## Preprocessing the data
-Preprocessing the data is one of the most important parts of the machine learning pipeline. Once we have decided that what problem we are trying to solve or what question we are looking an answer for, it's time to choose the right dataset. The solutions which an intelligent algorithm provides are only as good as the data we feed into it. So we want to make sure that the data is relevant to the problem we are trying to solve. There are many resources to find publicly available datasets. ** <a href = "http://archive.ics.uci.edu/ml/datasets.html">UCI</a> ** is one of the most popular data set repositories which stores almost every type of the dataset (text, image, audio, video) freely available.
+Preprocessing the data is one of the most important parts of the machine learning pipeline. Once we have decided that what problem we are trying to solve or what question we are looking an answer for, it's time to choose the right dataset. The solutions which an intelligent algorithm provides are only as good as the data we feed into it. So we want to make sure that the data is relevant to the problem we are trying to solve. There are many resources to find publicly available datasets. <a href = "http://archive.ics.uci.edu/ml/datasets.html">UCI</a> is one of the most popular data set repositories which stores almost every type of the dataset (text, image, audio, video) freely available.
 
 There's so much we could potentially do to our data. We are going to discover few of the techniques here to preprocess the data. List goes below: - 
 * Scaling
@@ -22,7 +22,7 @@ There's so much we could potentially do to our data. We are going to discover fe
 ### Scaling the data between 0 and 1
 Scaling is the method to limit the range of variables so that they can be compared on common grounds. It is performed on continuous variables. Often we rescale the features into the range between 0 and 1. This is useful for many optimization algorithms such as gradient-descent. It is also useful for the algorithms where we supply weighted inputs like in neural-networks.
 
-Python provides scikit-learn library for the data preprocessing. We will be using the same. The full code for this blog can b found at ** <a href="https://github.com/amanpreetsingh459/blog-posts-code-repository/blob/master/2018-06-17-blog3-data-preprocessing.ipynb">this</a> ** github link.
+Python provides scikit-learn library for the data preprocessing. We will be using the same. The full code for this blog can b found at <a href="https://github.com/amanpreetsingh459/blog-posts-code-repository/blob/master/2018-06-17-blog3-data-preprocessing.ipynb">this</a> github link.
 
 Below is the plot of the raw data which we have: - 
 
