@@ -32,14 +32,14 @@ Below is the plot of the raw data which we have: -
 
 Along the X-Axis we can see the total number of the examples, they are around 100. Along Y-Axis we can see that the range of data that is spread between 0 and 40000. We are going to rescale the data between 0 and 1. We can rescale data using scikit-learn with the MinMaxScaler class.
 
-''' python
+```python
 #scaling between 0 and 1
 import scipy
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler(feature_range=(0, 1))
 rescaled_data = scaler.fit_transform(data)
 
-'''
+```
 
 Let's plot the graph now:
 
@@ -57,7 +57,7 @@ It is most suitable for techniques that assume a Gaussian distribution in the in
 
 We can standardize the data using scikit-learn with the StandardScaler class. Below is it's python implementation: - 
 
-'''python
+```python
 #Standardize data (0 mean, 1 stdev)
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler().fit(data)
@@ -70,7 +70,7 @@ print("Standard deviation after standardization: {}".format(np.std(standardized_
 output:
 Mean after standardization: 0
 Standard deviation after standardization: 1.0
-'''
+```
 
 Let's plot the graph with standardized data:
 
@@ -88,13 +88,13 @@ This preprocessing can be useful for sparse datasets (lots of zeros) with attrib
 
 We can normalize data in Python with scikit-learn using the Normalizer class. Implementation is below: -
 
-'''python
+```python
 #Normalize data (length of 1)
 from sklearn.preprocessing import Normalizer
 scaler = Normalizer().fit(data)
 normalized_data = scaler.transform(data)
 
-'''
+```
 
 Let's plot the graph with normalized data:
 
