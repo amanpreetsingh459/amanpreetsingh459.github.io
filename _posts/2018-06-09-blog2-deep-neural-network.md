@@ -149,24 +149,32 @@ for i in range(epoch):
 
     #Backpropagation
     
+    #getting the error contribution by each layer    
     #output to hidden2
     error_output_layer = y - output_layer_activations
     slope_output_layer = sigmoid_derivatives(output_layer_activations)
-    delta_output_layer = error_output_layer * slope_output_layer
-    weights_hidden2_to_output += hidden_layer2_activations.T.dot(delta_output_layer) * learning_rate
-    bias_hidden2_to_output += np.sum(delta_output_layer, axis=0, keepdims=True) * learning_rate
+    delta_output_layer = error_output_layer * slope_output_layer    
     
     #hidden2 to hidden1
     slope_hidden_layer2 = sigmoid_derivatives(hidden_layer2_activations)    
     error_hidden_layer2 = delta_output_layer.dot(weights_hidden2_to_output.T)
-    delta_hidden_layer2 = error_hidden_layer2 * slope_hidden_layer2
-    weights_hidden1_to_hidden2 += hidden_layer1_activations.T.dot(delta_hidden_layer2) * learning_rate
-    bias_hidden1_to_hidden2 += np.sum(delta_hidden_layer2, axis=0, keepdims=True) * learning_rate        
+    delta_hidden_layer2 = error_hidden_layer2 * slope_hidden_layer2    
     
     #hidden1 to input
     slope_hidden_layer1 = sigmoid_derivatives(hidden_layer1_activations)
     error_hidden_layer1 = delta_hidden_layer2.dot(weights_hidden1_to_hidden2.T)
     delta_hidden_layer1 = error_hidden_layer1 * slope_hidden_layer1
+    
+    #weight and bias adjustments 
+    #output to hidden2
+    weights_hidden2_to_output += hidden_layer2_activations.T.dot(delta_output_layer) * learning_rate
+    bias_hidden2_to_output += np.sum(delta_output_layer, axis=0, keepdims=True) * learning_rate
+    
+    #hidden2 to hidden1
+    weights_hidden1_to_hidden2 += hidden_layer1_activations.T.dot(delta_hidden_layer2) * learning_rate
+    bias_hidden1_to_hidden2 += np.sum(delta_hidden_layer2, axis=0, keepdims=True) * learning_rate        
+    
+    #hidden1 to input
     weights_input_to_hidden1 += X.T.dot(delta_hidden_layer1) * learning_rate    
     bias_input_to_hidden1 += np.sum(delta_hidden_layer1, axis=0, keepdims=True) * True
     
