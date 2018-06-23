@@ -9,7 +9,7 @@ title: 'What makes the Deep Learning "Deep"? Multiple layers and backpropagation
 Besides the biological inspiration from human mind, the neural networks actually are the universal function approximators. They just compute a mathematical function. They take several inputs, process them through multiple neurons from 0 or more hidden layers and return the result using an output layer. Below image depicts the structure of a neural network with 0 and 1 hidden layer-- 
 
 <div class="imgcap">
-<img src="/assets/images/blog2/blog2_n1.JPG" width="800" height="300">
+<img src="/assets/images/blog2/blog2_n1.JPG">
 </div>
 
 ## Building blocks of a neural-network
@@ -26,7 +26,7 @@ Bias defines the flexibility of perceptrons. It's just a constant value which ad
 
 Below is the picture of neural-network depicting the building blocks: - 
 <div class="imgcap">
-<img src="/assets/images/blog2/blog2_n2.JPG" width="800" height="300">
+<img src="/assets/images/blog2/blog2_n2.jpg">
 </div>
 
 ## Multi Layer Perceptrons (MLP)
@@ -34,7 +34,7 @@ Below is the picture of neural-network depicting the building blocks: -
 An MLP consists of the multiple hidden layers stacked between the input and the output layer. See the below picture having 2 hidden layers: - 
 
 <div class="imgcap">
-<img src="/assets/images/blog2/blog2_n3.JPG" width="800" height="300">
+<img src="/assets/images/blog2/blog2_n3.jpg">
 </div>
 
 The notion is: every neuron in a single layer is connected with each of the neurons in its subsequent layer. i. e. in the above picture each of the 3 neurons in layer x will be connected with all the 4 neurons in h1 layer thus making total 3 x 4 = 12 connections, each of the 4 neurons in layer h1 will be connected with all the 2 neurons in h2 layer thus making total 4 x 4 = 16 connections and so on till the layers go on. **From this stacking of the layers one-after-the-other** only **deep learning** got the word **deep** in its name.
@@ -134,7 +134,7 @@ print(np.sum(bias_hidden2_to_output))
 #### Below is the graphical representation of our neural network
 
 <div class="imgcap">
-<img src="/assets/images/blog2/blog2_neural_network_image.JPG" width="800" height="400">
+<img src="/assets/images/blog2/blog2_neural_network_image.jpg">
 </div>
 
 For the simplicity in the picture i have not added all the links from one layer to another.
