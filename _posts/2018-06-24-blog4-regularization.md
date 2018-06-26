@@ -4,6 +4,10 @@ title: Regularize (L1, L2, Dropout) your neural network to prevent overfitting.
 
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## Underfitting and Overfitting - notion of Bias and Variance
 
 The learning algorithms (supervised) learn a model from already provided data, we often call training data. The goal of the learning algorithm to learn a mapping function **f** between input variable **X** and output variable **Y**. The mapping function also called the target function as this is the function which the model tries to approximate. Throughout the iterative process of learning, the model keeps on trying to reduce the error between **X** and **Y**. Two things out of the many more can be taken into account to measure the error: - 
@@ -41,7 +45,7 @@ Below are a few different techniques to apply regularization in deep learning.
 ### L2 regularization
 It is perhaps the most common form of regularization. It can be implemented by penalizing the squared magnitude of all parameters directly in the objective. That is, for every weight $ W $ in the network, we add the term $ \frac{1}{2} \lambda W^2 $ to the objective, where $ \lambda $ is the regularization strength. It is common to see the factor of $ \frac{1}{2} $ in front because then the gradient of this term with respect to the parameter $ W $ is simply $ \lambda W $ instead of $ 2 \lambda W $. The L2 regularization has the intuitive interpretation of heavily penalizing peaky weight vectors and preferring diffuse weight vectors. As we discussed in the Linear Classification section, due to multiplicative interactions between weights and inputs this has the appealing property of encouraging the network to use all of its inputs a little rather than some of its inputs a lot. Lastly, notice that during gradient descent parameter update, using the L2 regularization ultimately means that every weight is decayed linearly: $ W += -lambda * W $ towards zero.
 
-> **Performing L2 regularization** $$Cost \ function = Loss \ + \ \frac{\lambda}{2m} \ * \ \sum \mid W \mid^2 $$ 
+> **Performing L2 regularization** $Cost \ function = Loss \ + \ \frac{\lambda}{2m} \ * \ \sum \mid W \mid^2 $
 
 >Here, lambda is the regularization parameter. It is the hyperparameter whose value is optimized for better results. L2 regularization is also known as weight decay as it forces the weights to decay towards zero (but not exactly zero).
 
