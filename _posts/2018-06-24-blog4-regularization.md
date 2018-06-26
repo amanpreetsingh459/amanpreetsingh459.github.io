@@ -64,7 +64,7 @@ $$Cost \ function = Loss \ + \ \frac{\lambda}{m} \ * \ \sum \mid W \mid $$
 **According to Wikipedia —**
 >The term ***“dropout”*** refers to dropping out units (both hidden and visible) in a neural network.
 
-Simply put, dropout refers to ignoring units (i.e. neurons) during the training phase of certain set of neurons which is chosen at random. By “ignoring”, it means these units are not considered during a particular forward or backward pass. That is at each training stage, individual nodes are either dropped out of the net with probability $ 1-p $ or kept with probability $ p $, so that a reduced network is left; incoming and outgoing edges to a dropped-out node are also removed.
+Simply put, dropout refers to ignoring units (i.e. neurons) during the training phase of certain set of neurons which is chosen at random. By “ignoring”, it means these units are not considered during a particular forward or backward pass. That is at each training stage, individual nodes are either dropped out of the net with probability $$ 1-p $$ or kept with probability $$ p $$, so that a reduced network is left; incoming and outgoing edges to a dropped-out node are also removed.
 
 See the below picture to understand it better: -
 
