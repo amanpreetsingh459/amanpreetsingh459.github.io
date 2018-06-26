@@ -43,9 +43,10 @@ Below are a few different techniques to apply regularization in deep learning.
 * Dropout
 
 ### L2 regularization
-It is perhaps the most common form of regularization. It can be implemented by penalizing the squared magnitude of all parameters directly in the objective. That is, for every weight $$ W $$ in the network, we add the term $$ \frac{1}{2} \lambda W^2 $$ to the objective, where $$ \lambda $$ is the regularization strength. It is common to see the factor of $$ \frac{1}{2} $$ in front because then the gradient of this term with respect to the parameter $$ W $$ is simply $$ \lambda W $$ instead of $$ 2 \lambda W $$. The L2 regularization has the intuitive interpretation of heavily penalizing peaky weight vectors and preferring diffuse weight vectors. As we discussed in the Linear Classification section, due to multiplicative interactions between weights and inputs this has the appealing property of encouraging the network to use all of its inputs a little rather than some of its inputs a lot. Lastly, notice that during gradient descent parameter update, using the L2 regularization ultimately means that every weight is decayed linearly: $$ W += -lambda * W $$ towards zero.
+It is perhaps the most common form of regularization. It can be implemented by penalizing the squared magnitude of all parameters directly in the objective. That is, for every weight $$ W $$ in the network, we add the term $$ \frac{1}{2} \lambda W^2 $$ to the objective, where $$ \lambda $$ is the regularization strength. It is common to see the factor of $$ \frac{1}{2} $$ in front because then the gradient of this term with respect to the parameter $$ W $$ is simply $$ \lambda W $$ instead of $$ 2 \lambda W $$. The L2 regularization has the intuitive interpretation of heavily penalizing peaky weight vectors and preferring diffuse weight vectors. As we discussed in the Linear Classification section, due to multiplicative interactions between weights and inputs this has the appealing property of encouraging the network to use all of its inputs a little rather than some of its inputs a lot. Lastly, notice that during gradient descent parameter update, using the L2 regularization ultimately means that every weight is decayed linearly: $$ W += - \lambda * W $$ towards zero.
 
-**Performing L2 regularization** 
+**Performing L2 regularization**
+
 $$Cost \ function = Loss \ + \ \frac{\lambda}{2m} \ * \ \sum \mid W \mid^2 $$
 
 >Here, lambda is the regularization parameter. It is the hyperparameter whose value is optimized for better results. L2 regularization is also known as weight decay as it forces the weights to decay towards zero (but not exactly zero).
@@ -53,7 +54,8 @@ $$Cost \ function = Loss \ + \ \frac{\lambda}{2m} \ * \ \sum \mid W \mid^2 $$
 ### L1 Regularization
 It is another relatively common form of regularization, where for each weight $$ W $$ we add the term $$ \lambda  \mid W \mid $$ to the objective. The L1 regularization has the intriguing property that it leads the weight vectors to become sparse during optimization (i.e. very close to exactly zero). In other words, neurons with L1 regularization end up using only a sparse subset of their most important inputs and become nearly invariant to the "noisy" inputs. In comparison, final weight vectors from L2 regularization are usually diffuse, small numbers. In practice, if you are not concerned with explicit feature selection, L2 regularization can be expected to give superior performance over L1.
 
-**Performing L1 regularization** 
+**Performing L1 regularization**
+
 $$Cost \ function = Loss \ + \ \frac{\lambda}{m} \ * \ \sum \mid W \mid $$
 
 > In this, we penalize the absolute value of the weights. Unlike L2, the weights may be reduced to zero here. Hence, it is very useful when we are trying to compress our model. Otherwise, we usually prefer L2 over it.
