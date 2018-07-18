@@ -137,8 +137,6 @@ print(np.sum(bias_hidden2_to_output))
 <img src="/assets/images/blog2/blog2_neural_network_image.jpg">
 </div>
 
-For the simplicity in the picture i have not added all the links from one layer to another.
-
 
 ```python
 for i in range(epoch):
