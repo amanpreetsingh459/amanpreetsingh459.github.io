@@ -8,6 +8,19 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+
+## Contents:
+* Definition
+* Hard margin (data is linearly-separable)
+* Soft margin (data is not linearly-separable)
+* Kernel trick
+* 'C' parameter of SVMs
+* $$\gamma$$ parameter of SVMs
+* Strengths of the SVMs
+* Weaknesses of SVMs
+* References
+
+
 ## Definition
 
 **Support Vector Machines**(SVMs for short), in the context of machine learning, are the ways to separate data between two (or more) categories. (The context here used in the **supervised machine learning**, one in which all the data examples are labeled with their correct categories). Basically an SVM model is representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap**(hyperplane)** that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on the side of the hyperplane on which they fall. Below picture depicts the function of SVM in which the red line is the boundary which SVM tries to find:-
@@ -137,19 +150,19 @@ output:
     <function __main__.my_kernel(X, Y)>
 
 
-### 'C' parameter of SVM
+### 'C' parameter of SVMs
 The 'C' parameter controls the trade-off between **smooth decision boundary** and **classifying training points correctly**. A large 'C' values yields more training points correct and a lower 'C' values yields a smooth decision boundary.
 
-### $$\gamma$$ parameter of svm
+### $$\gamma$$ parameter of SVMs
 The gamma parameter defines how far the influence of a single training example reaches. A **low value** of gamma will cause the SVM to take **farther** data points into the account to create the decision boundary and **high value** for the **closest** data point.
 
-## Strengths of the SVM
+## Strengths of the SVMs
 * Effective in high dimensional spaces.
 * Still effective in cases where number of dimensions is greater than the number of samples.
 * Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
 * Versatile: different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.
 
-## Weaknesses of SVM
+## Weaknesses of SVMs
 * If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.
 * SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).
 
