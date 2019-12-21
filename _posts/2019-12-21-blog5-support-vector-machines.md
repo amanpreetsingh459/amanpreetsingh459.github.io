@@ -30,7 +30,7 @@ We want to find the **maximum margin hyperplane** that divides the group of poin
 $$ \ ||w|| = \sqrt \sum W ^2 $$
 
 ### Hard margin (data is linearly-separable)
-But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$frac{2}{\|w\|}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
+But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$ \frac{2}{\|w\|}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
 
 Below is the small python example of the same:
 
@@ -68,16 +68,16 @@ output:
     array([[0., 0.],
            [1., 1.]])
 
+get indices of support vectors
 ```python
-# get indices of support vectors
 clf.support_
 ```
 output:
 
     array([0, 1])
 
+get number of support vectors for each class
 ```python
-# get number of support vectors for each class
 clf.n_support_
 ```
 output:
@@ -104,6 +104,7 @@ Kernels can be of the following types: -
 
 Below is the python example:
 
+setting up a 'linear kernel'
 ```python
 linear_svc = svm.SVC(kernel='linear')
 linear_svc.kernel
@@ -112,6 +113,7 @@ output:
 
     'linear'
 
+setting up an 'rbf kernel'
 ```python
 rbf_svc = svm.SVC(kernel='rbf')
 rbf_svc.kernel
@@ -120,6 +122,7 @@ output:
 
     'rbf'
 
+setting up a 'custom kernel'
 ```python
 import numpy as np
 from sklearn import svm
