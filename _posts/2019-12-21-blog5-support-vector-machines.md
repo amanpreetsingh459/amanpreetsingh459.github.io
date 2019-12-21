@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 'Support Vector Machines? Separate data with largest possible margin!'
