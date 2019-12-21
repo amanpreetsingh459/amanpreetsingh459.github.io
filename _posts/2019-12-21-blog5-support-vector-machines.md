@@ -8,6 +8,7 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+<br>
 
 ## Contents:
 * Definition
@@ -20,6 +21,7 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
 * Weaknesses of SVMs
 * References
 
+<br>
 
 ## Definition
 
@@ -42,6 +44,7 @@ We want to find the **maximum margin hyperplane** that divides the group of poin
 
 $$ \ ||w|| = \sqrt \sum W ^2 $$
 
+<br>
 
 ## Hard margin (data is linearly-separable)
 But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$ \frac{2}{\|w\|}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
@@ -98,7 +101,7 @@ output:
 
     array([1, 1])
 
-
+<br>
 
 ## Soft margin (data is not linearly-separable)
 Additionally, for the data which is not linearly-separable, SVMs use another function called **hinge loss** function. It is given by:
@@ -108,7 +111,7 @@ for the data on the wrong side of the margin, the function's value is proportion
 
 $$\bigg[ \frac{1}{n} \sum max(0, 1 - y(w * x - b))\bigg] + \lambda||w||^2$$
 
-
+<br>
 
 ## Kernel trick
 Kernels are the functions that taken a low-dimensional feature space and map it to a high-dimensional feature space in order to make the data linearly separable which previously was not. Calculate the solution into this high-dimensional space and get back to the previous dimensional space. The resultant separation is thus non-linear.
@@ -154,14 +157,17 @@ output:
 
     <function __main__.my_kernel(X, Y)>
 
+<br>
 
 ## 'C' parameter of SVMs
 The 'C' parameter controls the trade-off between **smooth decision boundary** and **classifying training points correctly**. A large 'C' values yields more training points correct and a lower 'C' values yields a smooth decision boundary.
 
+<br>
 
 ## $$\gamma$$ parameter of SVMs
 The gamma parameter defines how far the influence of a single training example reaches. A **low value** of gamma will cause the SVM to take **farther** data points into the account to create the decision boundary and **high value** for the **closest** data point.
 
+<br>
 
 ## Strengths of the SVMs
 * Effective in high dimensional spaces.
@@ -169,6 +175,7 @@ The gamma parameter defines how far the influence of a single training example r
 * Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
 * Versatile: different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.
 
+<br>
 
 ## Weaknesses of SVMs
 * If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.
@@ -176,6 +183,7 @@ The gamma parameter defines how far the influence of a single training example r
 
 Hope you enjoyed the post...
 
+<br>
 
 ## References:
 * <a href="https://scikit-learn.org/stable/modules/svm.html#kernel-functions">sklearn documentation</a>
