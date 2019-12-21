@@ -25,6 +25,7 @@ The eqationof the hyperplane is given by two parameters, a real-values vector $$
 For the new input vector x the equation to predict the class will be given by:
 > $$ w*x - b = y $$
 
-We want to find the **maximum margin hyperplane** that divides the group of points x for which y = 1 from the group of points for which y = -1. A large margin contributes to the better generalization, that is how the model willl work on the new examples in the future. To minimize that we minimize the Euclidean norm of the w denoted by ||w|| and given by 
+
+We want to find the **maximum margin hyperplane** that divides the group of points x for which $$y = 1$$ from the group of points for which $$y = -1$$. A large margin contributes to the better generalization, that is how the model will work on the new examples in the future. To minimize that we minimize the Euclidean norm of the $$w$$ denoted by $$||w||$$ and given by 
 
 > $$ \ ||w|| = underroot \ \sum W ^2 $$
