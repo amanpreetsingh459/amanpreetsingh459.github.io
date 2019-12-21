@@ -8,7 +8,6 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<br>
 
 ## Contents:
 * Definition
