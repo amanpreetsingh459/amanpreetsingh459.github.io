@@ -25,12 +25,12 @@ $$ w*x - b = 0 $$
 
 For the new input vector $$x$$ the equation to predict the class will be given by: $$ w*x - b = y $$
 
-We want to find the **maximum margin hyperplane** that divides the group of points x for which $$ y = 1 $$ from the group of points for which $$ y = -1 $$ . A large margin contributes to the better generalization, that is how the model will work on the new examples in the future. To minimize that we minimize the Euclidean norm of the $$w$$ denoted by $$ \|\|w\|\| $$ and given by 
+We want to find the **maximum margin hyperplane** that divides the group of points x for which $$ y = 1 $$ from the group of points for which $$ y = -1 $$ . A large margin contributes to the better generalization, that is how the model will work on the new examples in the future. To minimize that we minimize the Euclidean norm of the $$w$$ denoted by $$ \|w\| $$ and given by 
 
 $$ \ ||w|| = \sqrt \sum W ^2 $$
 
 ### Hard margin (data is linearly-separable)
-But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$frac{2}{||w||}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
+But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$frac{2}{\|w\|}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
 
 Below is the small python example of the same:
 
@@ -98,7 +98,7 @@ Kernels are the functions that taken a low-dimensional feature space and map it 
 Kernels can be of the following types: -
 * linear: $$(x, x')$$
 * polynomial: $$(\gamma(x, x')+r)^d$$\. $$d$$ is specified by keyword degree, $$r$$ by $$coef0$$
-* rbf: $$exp(-\gamma\|\|x - x'\|\|^2)$$. $$\gamma$$ is specified by keyword gamma, must be greater than $$0$$
+* rbf: $$exp(-\gamma\|x - x'\|^2)$$. $$\gamma$$ is specified by keyword gamma, must be greater than $$0$$
 * sigmoid: $$tanh(\gamma(x, x')+r)$$ where $$r$$ is specified by $$coef0$$
 * custom
 
