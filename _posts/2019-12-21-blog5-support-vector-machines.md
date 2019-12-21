@@ -21,17 +21,13 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
 In machine learning the boundary that separates the examples of the different classes is termed as "Decision boundary", which in context of SVM is known as a 'hyperplane'. In next section we discuss the equation which is mentioned in the image.
 
 The equation of the hyperplane is given by two parameters, a real-values vector $$w$$ and input vector $$x$$ and a real number $$b$$ like this:
-$$ w*x - b =0 $$
+$$ w*x - b = 0 $$
 
-<p>
-For the new input vector $$x$$ the equation to predict the class will be given by:
-$$ w*x - b = y $$
-</p>
+For the new input vector $$x$$ the equation to predict the class will be given by: $$ w*x - b = y $$
 
+We want to find the **maximum margin hyperplane** that divides the group of points x for which $$ y = 1 $$ from the group of points for which $$ y = -1 $$. A large margin contributes to the better generalization, that is how the model will work on the new examples in the future. To minimize that we minimize the Euclidean norm of the $$w$$ denoted by $$ ||w|| $$ and given by 
 
-We want to find the **maximum margin hyperplane** that divides the group of points x for which $$y = 1$$ from the group of points for which $$y = -1$$. A large margin contributes to the better generalization, that is how the model will work on the new examples in the future. To minimize that we minimize the Euclidean norm of the $$w$$ denoted by $$||w||$$ and given by 
-
-> $$ \ ||w|| = \sqrt \sum W ^2 $$
+$$ \ ||w|| = \sqrt \sum W ^2 $$
 
 ### Hard margin (data is linearly-separable)
 But why by minimizing the norm of w do we find the highest margin between two classes? Geometrically the equations $$wx-b = 1$$ and $$wx-b = -1$$ define two parallel hyperplanes. The distance between these hyperplanes is given by $$frac{2}{||w||}$$, so the smaller the norm $$||w||$$, the larger the distance between these two hyperplanes. That was the mathematics of SVM.
