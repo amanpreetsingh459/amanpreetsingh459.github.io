@@ -13,10 +13,10 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
 * Hard margin (data is linearly-separable)
 * Soft margin (data is not linearly-separable)
 * Kernel trick
-* 'C' parameter of SVMs
-* $$\gamma$$ parameter of SVMs
-* Strengths of the SVMs
-* Weaknesses of SVMs
+* 'C' parameter
+* $$\gamma$$ parameter
+* Strengths
+* Weaknesses
 * References
 
 ## Definition
@@ -165,7 +165,7 @@ The gamma parameter defines how far the influence of a single training example r
 
 <br>
 
-## Strengths of the SVMs
+## Strengths of SVMs
 * Effective in high dimensional spaces.
 * Still effective in cases where number of dimensions is greater than the number of samples.
 * Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
