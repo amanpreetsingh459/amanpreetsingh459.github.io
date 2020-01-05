@@ -8,7 +8,7 @@ title: 'Support Vector Machines? Separate data with largest possible margin!'
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-## Contents:
+## Content:
 * Definition
 * Hard margin (data is linearly-separable)
 * Soft margin (data is not linearly-separable)
