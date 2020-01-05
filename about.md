@@ -7,5 +7,3 @@ title: About
 
 #### Stay tuned for the upcoming interesting content..
 
-<br>
-### Wizard..
