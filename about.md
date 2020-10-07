@@ -26,12 +26,11 @@ title: About
 **Tata Consultancy Services,** **_01/2017 - 02/2019_**
 
 - Responsibilities:
-  - Creating, maintaining, enhancing python scripts to ingest data from teradata into Hadoop
-  - Transform the data by applying the defined rules using PySpark
-  - Maintaining the whole oozie workflow for this ETL task
+  - Developing, maintaining, enhancing the ETL components (ingestion, transformation, export) of the data pipeline
+  - Writing data transformation rules as hive queries to run through pyspark jobs
+  - Maintaining the end-to-end oozie workflow for this entire process
 
 - Achievements:
-  - Developed and maintained the data pipeline for the Machine Learning workflow
   - Successfully upgraded the data warehousing solution tasks from teradata relational database to the hadoop environment.
     - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
