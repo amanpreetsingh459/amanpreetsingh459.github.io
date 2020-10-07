@@ -63,7 +63,7 @@ title: About
 - Bachelor of Computer Applications (BCA), Maharaja Ganga Singh University, Bikaner, _07/2008 – 05/2011_
 
 
-### EXTRA CURRICULAR
+### MISCELLANEOUS
 
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [https://www.coursera.org/](https://www.coursera.org/), _03/2020 – 05/2020_
