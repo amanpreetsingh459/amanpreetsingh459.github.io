@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Amanpreet Singh
+title: About
 ---
 
 **EXPERIENCE**
@@ -68,11 +68,11 @@ title: Amanpreet Singh
 
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [https://www.coursera.org/](https://www.coursera.org/), _03/2020 – 05/2020_
-- 4 times scholarship winner through[https://www.udacity.com/](https://www.udacity.com/):-
-  - Microsoft Machine Learning on Azure Scholarship,_07/2020 – 09/2020_
+- 4 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
+  - Microsoft Machine Learning on Azure Scholarship, _07/2020 – 09/2020_
   - Intel Edge AI Scholarship, _01/2020 – 03/2020_
   - Secure and Private AI Scholarship from Facebook, _06/2019 – 08/2019_
-  - PyTorch Scholarship from Facebook,_11/2018 – 01/2019_
-- Deep Learning Nanodegree Foundation Course,[https://www.udacity.com/](https://www.udacity.com/),_01/2017 – 05/2017_
+  - PyTorch Scholarship from Facebook, _11/2018 – 01/2019_
+- Deep Learning Nanodegree Foundation Course, [https://www.udacity.com/](https://www.udacity.com/), _01/2017 – 05/2017_
 
 
