@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-**EXPERIENCE**
+### EXPERIENCE
 
 **Senior Associate Consultant**
 
@@ -50,21 +50,21 @@ title: About
     - Success measure: Reduced the 90% manual effort for doing the same otherwise
 
 
-**SKILLS**
+### SKILLS
 
 - Programming: Python, Java / J2EE, C / C++, R, SQL
 - Machine Learning / Deep Learning: Natural Language Processing (NLP), NLTK, Tensorflow, Keras, Sci-Kit Learn, PyTorch, NumPy, Pandas
-- Cloud: Amazon EC2, Amazon SageMaker, EKS, Azure ML, Azure Cognitive Services, GCP BigQuery, GCP DataProc
+- Cloud: Amazon EC2, Amazon SageMaker, Azure ML, Azure Cognitive Services, GCP BigQuery, GCP DataProc, Docker, Kubernetes, Kubeflow
 - Open Big Data Stack: Spark, Hadoop, HiveQL, Sqoop, Oozie
 
 
-**EDUCATION**
+### EDUCATION
 
 - Master of Computer Applications (MCA), Jai Narain Vyas University, Jodhpur, _08/2011 – 10/2014_
 - Bachelor of Computer Applications (BCA), Maharaja Ganga Singh University, Bikaner, _07/2008 – 05/2011_
 
 
-**EXTRA CURRICULAR**
+### EXTRA CURRICULAR
 
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [https://www.coursera.org/](https://www.coursera.org/), _03/2020 – 05/2020_
