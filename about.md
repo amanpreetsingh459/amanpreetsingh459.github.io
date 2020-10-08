@@ -5,7 +5,7 @@ title: About
 
 ### EXPERIENCE
 
-**Senior Associate Consultant**
+**Senior Associate Consultant - Data Scientist**
 
 **Infosys,** **_02/2019 - Present_**
 
