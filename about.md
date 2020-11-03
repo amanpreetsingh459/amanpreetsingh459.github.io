@@ -5,7 +5,7 @@ title: About
 
 ### EXPERIENCE
 
-**Senior Associate Consultant - Data Scientist**
+**Senior Associate Consultant - Data Science**
 
 **Infosys,** **_02/2019 - Present_**
 
@@ -21,7 +21,7 @@ title: About
   - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
     - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
-**Systems Engineer - Big Data Engineer**
+**Systems Engineer - Big Data Engineering**
 
 **Tata Consultancy Services,** **_01/2017 - 02/2019_**
 
@@ -35,7 +35,7 @@ title: About
     - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
-**Systems Engineer - Middleware Support Analyst**
+**Systems Engineer - Middleware Support Functions**
 
 **Tata Consultancy Services,** **_03/2015 - 01/2017_**
 
