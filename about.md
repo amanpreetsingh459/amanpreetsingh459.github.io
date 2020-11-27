@@ -67,7 +67,8 @@ title: About
 
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [https://www.coursera.org/](https://www.coursera.org/), _03/2020 – 05/2020_
-- 4 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
+- 5 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
+  - Hybrid Cloud Engineer Nanodegree, _10/2020 – 02/2021_
   - Microsoft Machine Learning on Azure Scholarship, _07/2020 – 09/2020_
   - Intel Edge AI Scholarship, _01/2020 – 03/2020_
   - Secure and Private AI Scholarship from Facebook, _06/2019 – 08/2019_
