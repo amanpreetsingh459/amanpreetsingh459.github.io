@@ -17,9 +17,9 @@ title: About
 - Achievements:
   - Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [http://www.statmt.org/wmt20/pdf/2020.wmt-1.52.pdf](http://www.statmt.org/wmt20/pdf/2020.wmt-1.52.pdf)
   - Developed an automated solution using machine learning for the L1 and L2 (L3) workflows of ITSM (IT service Management) tools e.g. &quot;Service Now&quot;, &quot;Remedy&quot;
-    - Success measure: Eliminated the manual task of assigning the ticket to the right analyst and correct resolving agency
+     - Success measure: Eliminated the manual task of assigning the ticket to the right analyst and correct resolving agency
   - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
-    - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
+     - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
 **Systems Engineer - Big Data Engineering**
 
@@ -32,7 +32,7 @@ title: About
 
 - Achievements:
   - Successfully upgraded the data warehousing solution tasks from teradata relational database to the hadoop environment.
-    - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
+     - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
 **Systems Engineer - Middleware Support Functions**
@@ -46,7 +46,7 @@ title: About
 - Achievements:
   - Developed a desktop based UI using java to access the servers instead of going to the server and manually run the commands to get the information about MQ components (queue managers, queues etc.)
   - Developed a python script to automatically run health checks on the servers
-    - Success measure: Reduced the 90% manual effort for doing the same otherwise
+     - Success measure: Reduced the 90% manual effort for doing the same otherwise
 
 
 ### SKILLS
@@ -68,11 +68,11 @@ title: About
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [https://www.coursera.org/](https://www.coursera.org/), _03/2020 – 05/2020_
 - 5 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
-  - Hybrid Cloud Engineer Nanodegree, _10/2020 – 02/2021_
-  - Microsoft Machine Learning on Azure Scholarship, _07/2020 – 09/2020_
-  - Intel Edge AI Scholarship, _01/2020 – 03/2020_
-  - Secure and Private AI Scholarship from Facebook, _06/2019 – 08/2019_
-  - PyTorch Scholarship from Facebook, _11/2018 – 01/2019_
+  1. Hybrid Cloud Engineer Nanodegree, _10/2020 – 02/2021_
+  2. Microsoft Machine Learning on Azure Scholarship, _07/2020 – 09/2020_
+  3. Intel Edge AI Scholarship, _01/2020 – 03/2020_
+  4. Secure and Private AI Scholarship from Facebook, _06/2019 – 08/2019_
+  5. PyTorch Scholarship from Facebook, _11/2018 – 01/2019_
 - Deep Learning Nanodegree Foundation Course, [https://www.udacity.com/](https://www.udacity.com/), _01/2017 – 05/2017_
 - Acclaim learning achievements: [https://www.youracclaim.com/users/amanpreet-singh.f845d248](https://www.youracclaim.com/users/amanpreet-singh.f845d248)
 
