@@ -73,5 +73,5 @@ title: About
   - Secure and Private AI Scholarship from Facebook, _06/2019 – 08/2019_
   - PyTorch Scholarship from Facebook, _11/2018 – 01/2019_
 - Deep Learning Nanodegree Foundation Course, [https://www.udacity.com/](https://www.udacity.com/), _01/2017 – 05/2017_
-
+- Acclaim learning achievements: [https://www.youracclaim.com/users/amanpreet-singh.f845d248](https://www.youracclaim.com/users/amanpreet-singh.f845d248)
 
