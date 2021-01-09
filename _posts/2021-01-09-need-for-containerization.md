@@ -130,9 +130,3 @@ Essentially, containers are lightweight, stand-alone components containing appli
 
 Hope you enjoyed the post...
 
- 
-
-
-```python
-
-```
