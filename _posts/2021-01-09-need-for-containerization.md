@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What is containerization and its role in productionizing ML model?'
+title: 'What is "Containerization" and its role in productionizing ML model?'
 
 ---
 
