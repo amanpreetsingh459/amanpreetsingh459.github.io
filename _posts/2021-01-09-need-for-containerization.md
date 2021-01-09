@@ -38,7 +38,7 @@ Virtualization is a technique to deploy one or more guest operating systems on t
 
 <br>
 <div class="imgcap">
-<img src="../assets/images/blog6_need-for-containerization/blog6_containerization.jpg">
+<img src="/assets/images/blog6_need-for-containerization/blog6_containerization.jpg">
 </div>
 <br>
 
@@ -60,7 +60,7 @@ Advantages of Containerization over Virtualization: -
 
 <br>
 <div class="imgcap">
-<img src="../assets/images/blog6_need-for-containerization/blog6_virtualization.jpg">
+<img src="/assets/images/blog6_need-for-containerization/blog6_virtualization.jpg">
 </div>
 <br>
 
@@ -81,7 +81,7 @@ The typical smaller steps comprising in all the 3 phases discussed above are ill
  
 <br>
 <div class="imgcap">
-<img src="../assets/images/blog6_need-for-containerization/blog6_ml_lifecycle.png">
+<img src="/assets/images/blog6_need-for-containerization/blog6_ml_lifecycle.png">
 </div>
 <br>
 
