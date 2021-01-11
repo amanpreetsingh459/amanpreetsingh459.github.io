@@ -17,6 +17,7 @@ title: 'What is "Containerization" and its role in productionizing ML model?'
     * Tools to achieve ML in containers (Docker, Kubernetes)
     * Brief about the major cloud providers of container services
 * Conclusion
+* References
 
 ## Overview (the problem statement)
 
@@ -129,4 +130,13 @@ Essentially, containers are lightweight, stand-alone components containing appli
  
 
 Hope you enjoyed the post...
+
+
+## References
+* <a href="https://www.edureka.co/blog/docker-explained/">https://www.edureka.co/blog/docker-explained/</a>
+* <a href="https://azure.microsoft.com/en-in/topic/kubernetes-vs-docker/#:~:text=A%20fundamental%20difference%20between%20Kubernetes,production%20in%20an%20efficient%20manner.">Azure guide - Kubernetes vs. Docker</a>
+* <a href="https://www.bmc.com/blogs/machine-learning-containers/">https://www.bmc.com/blogs/machine-learning-containers/</a>
+* <a href="https://github.com/tm1611/Machine-Learning-Engineer-Nanodegree">https://github.com/tm1611/Machine-Learning-Engineer-Nanodegree</a>
+* <a href="https://www.educba.com/machine-learning-life-cycle/">https://www.educba.com/machine-learning-life-cycle/</a>
+* <a href="https://fntlnz.wtf/post/why-containers/">https://fntlnz.wtf/post/why-containers/</a>
 
