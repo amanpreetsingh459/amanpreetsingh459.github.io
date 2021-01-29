@@ -73,7 +73,7 @@ title: About
   2. Intel Edge AI Scholarship, [Go to the link](https://www.udacity.com/scholarships/intel-edge-ai-scholarship), _01/2020 – 03/2020_
   3. Secure and Private AI Scholarship from Facebook, [Go to the link](https://www.udacity.com/facebook-AI-scholarship), _06/2019 – 08/2019_
   4. PyTorch Scholarship from Facebook, [Go to the link](https://www.udacity.com/scholarships/facebook-pytorch-scholarship), _11/2018 – 01/2019_
-- Deep Learning Nanodegree Foundation Course, [Go to the link](https://www.udacity.com/course/deep-learning-nanodegree--nd101), _01/2017 – 05/2017_
+- Deep Learning Nanodegree Foundation Course, [link to the certification](https://graduation.udacity.com/nd101), _01/2017 – 05/2017_
 - Google Cloud Training Badges: [https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9](https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9)
 - Acclaim badges: [https://www.youracclaim.com/users/amanpreet-singh.f845d248](https://www.youracclaim.com/users/amanpreet-singh.f845d248)
 
