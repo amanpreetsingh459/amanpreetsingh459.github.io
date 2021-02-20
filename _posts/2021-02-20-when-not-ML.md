@@ -86,13 +86,9 @@ Hope you enjoyed the post...
 ## References
 
 * <a href="https://twitter.com/kelseyhightower/status/963428093292457984?s=20">https://twitter.com/kelseyhightower/status/963428093292457984?s=20</a>
-
+* <a href="http://themlbook.com/">http://themlbook.com/</a>
 * <a href="https://towardsdatascience.com/when-not-to-use-machine-learning-14ec62daacd7">https://towardsdatascience.com/when-not-to-use-machine-learning-14ec62daacd7</a>
-
 * <a href="https://towardsdatascience.com/the-limitations-of-machine-learning-a00e0c3040c6">https://towardsdatascience.com/the-limitations-of-machine-learning-a00e0c3040c6</a>
-
 * <a href="https://www.onlydeadfish.co.uk/only_dead_fish/2017/01/the-limitations-of-machine-learning.html">https://www.onlydeadfish.co.uk/only_dead_fish/2017/01/the-limitations-of-machine-learning.html</a>
-
 * <a href="https://syncedreview.com/2019/06/27/the-staggering-cost-of-training-sota-ai-models/">https://syncedreview.com/2019/06/27/the-staggering-cost-of-training-sota-ai-models/</a>
-
 * <a href="https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/">https://bdtechtalks.com/2020/08/17/openai-gpt-3-commercial-ai/</a>
