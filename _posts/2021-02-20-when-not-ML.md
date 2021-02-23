@@ -12,7 +12,7 @@ title: 'When "Not" to Use Machine Learning?'
     * Cost of training an ML model
     * Interpretability of results
     * Ethics and responsibility
-* Breakdown of the limitations into guidelines to not to use ML
+* Breakdown of the limitations into guidelines to 'when not to use ML'
 * Endnotes
 * References
 
