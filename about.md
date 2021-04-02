@@ -53,7 +53,7 @@ title: About
 
 - Programming: Python, Java / J2EE, C / C++, R, SQL
 - Machine Learning / Deep Learning: Natural Language Processing (NLP), NLTK, Tensorflow, Keras, Sci-Kit Learn, PyTorch, NumPy, Pandas
-- Cloud: Amazon EC2, Amazon SageMaker, Azure ML, Azure Cognitive Services, GCP BigQuery, GCP DataProc, Docker, Kubernetes, Kubeflow
+- Cloud: Amazon EC2, Amazon SageMaker, AZ-900 certification, Azure ML, Azure Cognitive Services, GCP BigQuery, GCP DataProc, Docker, Kubernetes, Kubeflow
 - Open Big Data Stack: Spark, Hadoop, HiveQL, Sqoop, Oozie
 
 
@@ -75,5 +75,4 @@ title: About
   4. PyTorch Scholarship from Facebook, [Go to the link](https://www.udacity.com/scholarships/facebook-pytorch-scholarship), _11/2018 – 01/2019_
 - Deep Learning Nanodegree Foundation Course, [link to the certification](https://graduation.udacity.com/confirm/DWP3CWJL), _01/2017 – 05/2017_
 - Google Cloud Badges: [https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9](https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9)
-- Acclaim badges: [https://www.youracclaim.com/users/amanpreet-singh.f845d248](https://www.youracclaim.com/users/amanpreet-singh.f845d248)
-
+- [Azure and Bigdata certifications](https://www.credly.com/users/amanpreet-singh.3edf048e)
