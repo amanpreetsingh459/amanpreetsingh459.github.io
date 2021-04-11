@@ -53,7 +53,7 @@ title: About
 
 - Programming: Python, Java / J2EE, C / C++, R, SQL
 - Machine Learning / Deep Learning: Natural Language Processing (NLP), NLTK, Tensorflow, Keras, Sci-Kit Learn, PyTorch, NumPy, Pandas
-- Cloud: Amazon EC2, Amazon SageMaker, AZ-900 certification, Azure ML, Azure Cognitive Services, GCP BigQuery, GCP DataProc, Docker, Kubernetes, Kubeflow
+- Cloud: Amazon EC2, Amazon SageMaker, Azure, AZ-900;AI-900;AI-100; certifications, GCP BigQuery, GCP DataProc, Docker, Kubernetes, Kubeflow
 - Open Big Data Stack: Spark, Hadoop, HiveQL, Sqoop, Oozie
 
 
