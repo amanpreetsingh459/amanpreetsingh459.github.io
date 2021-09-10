@@ -5,7 +5,7 @@ title: About
 
 ### EXPERIENCE
 #### Data Scientist
-***Infosys, 02/2019 - Present***
+*Infosys, 02/2019 - Present*
 - Responsibilities:
   - As the company's central automation team member, finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
   - Participate (building, coding, reviewing) in the end-to-end model building process from gathering the data, model training, deployment, re-taining etc.
@@ -19,7 +19,7 @@ title: About
      - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
 #### Big Data Engineer
-***Tata Consultancy Services, 01/2017 - 02/2019***
+*Tata Consultancy Services, 01/2017 - 02/2019*
 - Responsibilities:
   - Developing, maintaining, enhancing the ETL components (ingestion, transformation, export) of the data pipeline
   - Writing data transformation rules as hive queries to run through pyspark jobs
@@ -31,7 +31,7 @@ title: About
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
 #### Middleware Engineer
-***Tata Consultancy Services, 03/2015 - 01/2017***
+*Tata Consultancy Services, 03/2015 - 01/2017*
 - Responsibilities:
   - Handling L1, L2 and L3 incidents in the IBM MQ (Message Queuing) environment
   - Maintaining the health of ~400 servers (Unix / Linux, Windows) to ensure MQ services are operational all the time
