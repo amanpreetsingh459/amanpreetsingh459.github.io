@@ -5,13 +5,13 @@ title: About
 
 ### EXPERIENCE
 
-**Senior Associate Consultant - Data Science**
+**Data Scientist**
 
 **Infosys,** **_02/2019 - Present_**
 
 - Responsibilities:
-  - As company&#39;s central automation team member finding the opportunities of automation into different accounts. Then building the same using data science and machine learning practices
-  - Participate (building, coding, reviewing) in the end-to-end model building process from gathering the data, model training, deployment, retaining etc.
+  - As the company's central automation team member, finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
+  - Participate (building, coding, reviewing) in the end-to-end model building process from gathering the data, model training, deployment, re-taining etc.
   - Making good use of cloud resources for building data pipeline for machine learning workflows in GCP and/or AWS
 
 - Achievements:
@@ -21,7 +21,7 @@ title: About
   - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
      - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
-**Systems Engineer - Big Data Engineering**
+**Big Data Engineer**
 
 **Tata Consultancy Services,** **_01/2017 - 02/2019_**
 
@@ -35,7 +35,7 @@ title: About
      - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
-**Systems Engineer - Middleware Support Functions**
+**Middleware Engineer**
 
 **Tata Consultancy Services,** **_03/2015 - 01/2017_**
 
