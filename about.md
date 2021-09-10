@@ -3,11 +3,9 @@ layout: page
 title: About
 ---
 
-## EXPERIENCE
+### EXPERIENCE
 
-### Data Scientist
-
-#### Infosys, 02/2019 - Present
+**Data Scientist**, Infosys, 02/2019 - Present
 
 - Responsibilities:
   - As the company's central automation team member, finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
