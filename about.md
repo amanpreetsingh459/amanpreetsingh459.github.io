@@ -3,11 +3,11 @@ layout: page
 title: About
 ---
 
-### EXPERIENCE
+## EXPERIENCE
 
-#### Data Scientist
+### Data Scientist
 
-##### Infosys, 02/2019 - Present
+#### Infosys, 02/2019 - Present
 
 - Responsibilities:
   - As the company's central automation team member, finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
@@ -21,9 +21,9 @@ title: About
   - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
      - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
-#### Big Data Engineer
+### Big Data Engineer
 
-##### Tata Consultancy Services, 01/2017 - 02/2019
+#### Tata Consultancy Services, 01/2017 - 02/2019
 
 - Responsibilities:
   - Developing, maintaining, enhancing the ETL components (ingestion, transformation, export) of the data pipeline
@@ -35,9 +35,9 @@ title: About
      - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
   - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
-#### Middleware Engineer
+### Middleware Engineer
 
-##### Tata Consultancy Services, 03/2015 - 01/2017
+#### Tata Consultancy Services, 03/2015 - 01/2017
 
 - Responsibilities:
   - Handling L1, L2 and L3 incidents in the IBM MQ (Message Queuing) environment
@@ -49,7 +49,7 @@ title: About
      - Success measure: Reduced the 90% manual effort for doing the same otherwise
 
 
-### SKILLS
+## SKILLS
 
 - Programming: Python, Java / J2EE, C / C++, R, SQL
 - Machine Learning / Deep Learning: Natural Language Processing (NLP), NLTK, Tensorflow, Keras, Sci-Kit Learn, PyTorch, NumPy, Pandas
@@ -57,13 +57,13 @@ title: About
 - Open Big Data Stack: Spark, Hadoop, HiveQL, Sqoop, Oozie
 
 
-### EDUCATION
+## EDUCATION
 
 - Master of Computer Applications (MCA), Jai Narain Vyas University, Jodhpur, _08/2011 – 10/2014_
 - Bachelor of Computer Applications (BCA), Maharaja Ganga Singh University, Bikaner, _07/2008 – 05/2011_
 
 
-### MISCELLANEOUS
+## MISCELLANEOUS
 
 - Hybrid Cloud Engineer Nanodegree, [link to the certification](https://graduation.udacity.com/confirm/PXDZZGRH), _10/2020 – 02/2021_
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
