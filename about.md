@@ -13,6 +13,7 @@ title: About
 
 - Achievements:
   - Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [https://www.aclweb.org/anthology/2020.wmt-1.52/](https://www.aclweb.org/anthology/2020.wmt-1.52/)
+  - Deployed multiple machine learning models in production as part of micro services. These micro services served as core functionality for the troubleshooting system in place
   - Developed an automated solution using machine learning for the L1 and L2 (L3) workflows of ITSM (IT service Management) tools e.g. &quot;Service Now&quot;, &quot;Remedy&quot;
      - Success measure: Eliminated the manual task of assigning the ticket to the right analyst and correct resolving agency
   - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
