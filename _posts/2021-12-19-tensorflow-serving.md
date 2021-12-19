@@ -240,5 +240,5 @@ Hope you enjoyed the post...
 ## References
 * [https://www.tensorflow.org/tfx/guide/serving](https://www.tensorflow.org/tfx/guide/serving)
 * [https://github.com/https-deeplearning-ai/tensorflow-1-public](https://github.com/https-deeplearning-ai/tensorflow-1-public)
-* [https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public](https://github.com/https-deeplearning-ai/tensorflow-1-public)
+* [https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public](https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public)
 
