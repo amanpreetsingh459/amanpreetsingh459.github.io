@@ -11,7 +11,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 
 #Build settings
 kramdown:
