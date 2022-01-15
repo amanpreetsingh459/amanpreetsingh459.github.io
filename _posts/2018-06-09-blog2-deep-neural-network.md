@@ -1,4 +1,5 @@
 ---
+permalink: /deep-neural-network
 layout: post
 title: 'What makes the Deep Learning "Deep"? Multiple layers and backpropagation'
 
