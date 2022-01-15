@@ -1,4 +1,5 @@
 ---
+permalink: /tensorflow-serving
 layout: post
 title: Practical Guide on ML Model serving using "Tensorflow Serving"'
 
