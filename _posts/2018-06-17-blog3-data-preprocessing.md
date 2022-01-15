@@ -1,4 +1,5 @@
 ---
+permalink: /data-preprocessing
 layout: post
 title: Preprocess your data before feeding into any learning algorithm to make it work awesome
 
