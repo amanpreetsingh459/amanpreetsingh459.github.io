@@ -1,4 +1,5 @@
 ---
+permalink: /first-neural-network
 layout: post
 title: Creating learning(intelligence) into machines using neural networks
 ---
