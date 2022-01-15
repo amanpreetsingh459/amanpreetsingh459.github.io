@@ -13,6 +13,12 @@ linkedin_username: amanpreetsingh459
 # Minima: show excerpts in the frontpage
 # show_excerpts: true
 
+# Minima: custom header links
+header_pages:
+  #- frontpage.md
+  - about.md
+  - contact.md
+
 #Build settings
 markdown: kramdown
 highlighter: rouge
