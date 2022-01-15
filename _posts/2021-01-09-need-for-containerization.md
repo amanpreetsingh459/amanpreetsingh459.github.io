@@ -1,4 +1,5 @@
 ---
+permalink: /need-for-containerization
 layout: post
 title: 'What is "Containerization" and its role in productionizing ML model?'
 
