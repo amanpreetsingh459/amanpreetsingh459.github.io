@@ -1,4 +1,5 @@
 ---
+permalink: /regularization
 layout: post
 title: Regularize (L2, L1, Dropout) your neural network to prevent overfitting.
 
