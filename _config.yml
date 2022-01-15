@@ -2,8 +2,17 @@ title: Amanpreet Singh
 author: Amanpreet Singh
 email: amanpreetsingh459@gmail.com
 description: An Artificial Intelligence Wizard's Blog
+
+theme: minima
+
+# Minima social links
 twitter_username: amanpreet_hmh
 github_username: amanpreetsingh459
+linkedin_username: amanpreetsingh459
+rss: rss
+
+# Minima: show excerpts in the frontpage
+show_excerpts: true
 
 #Build settings
 markdown: kramdown
@@ -11,7 +20,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-theme: minima
+
 
 #Build settings
 kramdown:
