@@ -1,6 +1,7 @@
 ---
+permalink: /about
 layout: page
-title: About
+title: About me
 ---
 
 ### EXPERIENCE
