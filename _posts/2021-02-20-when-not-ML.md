@@ -1,5 +1,4 @@
 ---
-permalink: /when-not-ML
 layout: post
 title: 'When "Not" to Use Machine Learning?'
 
