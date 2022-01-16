@@ -6,46 +6,30 @@ title: About
 ### EXPERIENCE
 #### Consultant – Data Science
 *Infosys, 02/2019 - Present*
-- Responsibilities:
-  - As the company's central automation team member, finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
-  - Participate (building, coding, reviewing) in the end-to-end model building process from gathering the data, model training, deployment, re-taining etc.
-  - Making good use of cloud resources for building data pipeline for machine learning workflows in GCP and/or AWS
-
-- Achievements:
-  - Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [https://www.aclweb.org/anthology/2020.wmt-1.52/](https://www.aclweb.org/anthology/2020.wmt-1.52/)
-  - Developed an automated solution using machine learning for the L1 and L2 (L3) workflows of ITSM (IT service Management) tools e.g. &quot;Service Now&quot;, &quot;Remedy&quot;
+- As company’s central automation team member finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
+- Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [https://www.aclweb.org/anthology/2020.wmt-1.52/](https://www.aclweb.org/anthology/2020.wmt-1.52/)
+- Developed an automated solution using machine learning for the L1 and L2 (L3) workflows of ITSM (IT service Management) tools e.g. "Service Now", "Remedy"
      - Success measure: Eliminated the manual task of assigning the ticket to the right analyst and correct resolving agency
-  - Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
+- Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
      - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
 
 #### Systems Engineer - Big Data Engineering
 *Tata Consultancy Services, 01/2017 - 02/2019*
-- Responsibilities:
-  - Developing, maintaining, enhancing the ETL components (ingestion, transformation, export) of the data pipeline
-  - Writing data transformation rules as hive queries to run through pyspark jobs
-  - Maintaining the end-to-end oozie workflow for this entire process
-
-- Achievements:
-  - Successfully upgraded the data warehousing solution tasks from teradata relational database to the hadoop environment.
-     - Success measure: Made it scalable for the ever-growing database size in much more cost-effective way
-  - Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
+- Maintaining and enhancing big data pipeline for ETL workflow (ingestion, transformation, export) used for dashboard reporting
+- Successfully migrated the data warehousing workflows from the teradata database to the hadoop environment. This made it scalable for the ever-growing database size in a very cost-effective way
+- Optimized the data processing (batch processing) run time into hadoop environment from 4 hours to just 40 minutes
 
 #### Systems Engineer - Middleware Engineering
 *Tata Consultancy Services, 03/2015 - 01/2017*
-- Responsibilities:
-  - Handling L1, L2 and L3 incidents in the IBM MQ (Message Queuing) environment
-  - Maintaining the health of ~400 servers (Unix / Linux, Windows) to ensure MQ services are operational all the time
-
-- Achievements:
-  - Developed a desktop based UI using java to access the servers instead of going to the server and manually run the commands to get the information about MQ components (queue managers, queues etc.)
-  - Developed a python script to automatically run health checks on the servers
-     - Success measure: Reduced the 90% manual effort for doing the same otherwise
+- Maintaining the health of 402 servers (Unix / Linux, Windows) to ensure MQ (IBM Message Queuing) services are operational all the time
+- Automated the process of manually logging into the servers and performing troubleshooting activities of MQ components (queue managers, queues etc.), by building a desktop-based UI
+- Automated the process of running manual, periodic health-checks on the servers. This reduced the 90% manual effort for doing the same otherwise
 
 
 ### SKILLS
 - Programming: Python, Java / J2EE, C / C++, R, SQL
 - Machine Learning / Deep Learning: Natural Language Processing (NLP), NLTK, Tensorflow, Keras, Sci-Kit Learn, PyTorch, NumPy, Pandas
-- Cloud: Amazon EC2, Amazon SageMaker, Azure, AZ-900;AI-900;AI-100;DP-100 certifications, GCP BigQuery, GCP DataProc, Nutanix Hybrid Cloud
+- Cloud: Amazon EC2, Amazon SageMaker, Azure, AZ-900; AI-900; AI-100; DP-100 certifications, GCP BigQuery, GCP DataProc, Nutanix Hybrid Cloud
 - Open Big Data Stack: Spark, Hadoop, HiveQL, Sqoop, Oozie
 
 
