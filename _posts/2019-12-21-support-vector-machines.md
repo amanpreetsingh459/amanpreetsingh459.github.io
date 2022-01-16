@@ -1,5 +1,4 @@
 ---
-permalink: /support-vector-machines
 layout: post
 title: 'Support Vector Machines? Separate data with largest possible margin!'
 
