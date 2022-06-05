@@ -3,15 +3,19 @@ layout: page
 title: About
 ---
 
+### Summary
+- Experienced in Data Science, Machine Learning and Big Data technologies with extensive hands-on practice in Designing/building Machine Learning models/pipelines in cloud and on-premise
+- Passion for technology and automation
+- Learning everyday
+- Karma returns!
+
 ### EXPERIENCE
 #### Consultant – Data Science
 *Infosys, 02/2019 - Present*
 - As company’s central automation team member finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
 - Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [https://www.aclweb.org/anthology/2020.wmt-1.52/](https://www.aclweb.org/anthology/2020.wmt-1.52/)
-- Developed an automated solution using machine learning for the L1 and L2 (L3) workflows of ITSM (IT service Management) tools e.g. "Service Now", "Remedy"
-     - Success measure: Eliminated the manual task of assigning the ticket to the right analyst and correct resolving agency
-- Developed an automatic mail tagging system using machine learning and deployed it as an add-in in MS Outlook
-     - Success measure: Eliminated the manual effort to do the same. Tagging helped in efficient search functions into the central repository
+- Deployed multiple pre-trained text-classification models as rest endpoints
+- Developed an email classification model and deployed it as an add-in in MS Outlook. This helped with quick decision-making about the trading functions
 
 #### Systems Engineer - Big Data Engineering
 *Tata Consultancy Services, 01/2017 - 02/2019*
