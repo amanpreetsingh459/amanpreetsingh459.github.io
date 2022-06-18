@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-### Summary
+### SUMMARY
 - Experienced in Data Science, Machine Learning and Big Data technologies with extensive hands-on practice in Designing/building Machine Learning models/pipelines in cloud and on-premise
 - Passion for technology and automation
 - Learning everyday
@@ -43,6 +43,7 @@ title: About
 
 
 ### MISCELLANEOUS
+- AWS Machine Learning Foundations, [link to the certification](https://graduation.udacity.com/confirm/6L66PRRZ), _11/2021_
 - Hybrid Cloud Engineer Nanodegree, [link to the certification](https://graduation.udacity.com/confirm/PXDZZGRH), _10/2020 – 02/2021_
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
 - Data Engineering with Google Cloud Specialization, [Go to the link](https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ), _03/2020 – 05/2020_
