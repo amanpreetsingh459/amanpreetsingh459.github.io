@@ -47,6 +47,7 @@ title: About
 
 
 ### MISCELLANEOUS
+- Nutanix Certified Associate (NCA), [link to the certification](https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url), _07/2022_
 - AWS Machine Learning Foundations, [link to the certification](https://graduation.udacity.com/confirm/6L66PRRZ), _11/2021_
 - Hybrid Cloud Engineer Nanodegree, [link to the certification](https://graduation.udacity.com/confirm/PXDZZGRH), _10/2020 – 02/2021_
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
