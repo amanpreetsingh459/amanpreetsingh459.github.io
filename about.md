@@ -10,8 +10,12 @@ title: About
 - Karma returns!
 
 ### EXPERIENCE
+#### AI/ML Specialist
+*Google, 08/2022 - present*
+- Artificial Intelligence/Machine Learning in Google Cloud
+
 #### Consultant – Data Science
-*Infosys, 02/2019 - Present*
+*Infosys, 02/2019 - 08/2022*
 - As company’s central automation team member finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
 - Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: [https://www.aclweb.org/anthology/2020.wmt-1.52/](https://www.aclweb.org/anthology/2020.wmt-1.52/)
 - Deployed multiple pre-trained text-classification models as rest endpoints
