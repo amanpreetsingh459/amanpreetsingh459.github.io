@@ -47,11 +47,12 @@ title: About
 
 
 ### MISCELLANEOUS
+- Google Cloud Certified: Professional Cloud Architect, [link to the certification](https://www.credential.net/df38b9ad-e704-4f0f-9886-cf231bc90a13), _11/2022_
 - Nutanix Certified Associate (NCA), [link to the certification](https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url), _07/2022_
 - AWS Machine Learning Foundations, [link to the certification](https://graduation.udacity.com/confirm/6L66PRRZ), _11/2021_
 - Hybrid Cloud Engineer Nanodegree, [link to the certification](https://graduation.udacity.com/confirm/PXDZZGRH), _10/2020 – 02/2021_
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
-- Data Engineering with Google Cloud Specialization, [Go to the link](https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ), _03/2020 – 05/2020_
+- Data Engineering with Google Cloud Coursera Specialization, [Go to the link](https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ), _03/2020 – 05/2020_
 - 4 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
   1. Microsoft Machine Learning on Azure Scholarship, [Go to the link](https://www.udacity.com/scholarships/machine-learning-scholarship-microsoft-azure), _07/2020 – 09/2020_
   2. Intel Edge AI Scholarship, [Go to the link](https://www.udacity.com/scholarships/intel-edge-ai-scholarship), _01/2020 – 03/2020_
