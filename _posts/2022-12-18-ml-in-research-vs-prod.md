@@ -1,4 +1,5 @@
 ---
+permalink: /ml-in-research-vs-prod
 layout: post
 title: Machine Learning in Research vs Production
 
