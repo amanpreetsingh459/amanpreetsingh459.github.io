@@ -113,8 +113,9 @@ On the other hand, a machine learning product is a complete system that incorpor
 
 
 ## References
-* https://huggingface.co/datasets/squad
-* https://huggingface.co/datasets/glue
-* https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-* https://syncedreview.com/2019/06/27/the-staggering-cost-of-training-sota-ai-models/
+* [https://huggingface.co/datasets/squad](https://huggingface.co/datasets/squad)
+* [https://huggingface.co/datasets/glue](https://huggingface.co/datasets/glue)
+* [https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* [https://syncedreview.com/2019/06/27/the-staggering-cost-of-training-sota-ai-models/](https://syncedreview.com/2019/06/27/the-staggering-cost-of-training-sota-ai-models/)
+
 
