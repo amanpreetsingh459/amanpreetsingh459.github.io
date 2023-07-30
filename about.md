@@ -47,6 +47,7 @@ title: About
 
 
 ### MISCELLANEOUS
+- Google Cloud Certified: Professional Machine Learning Engineer, [link to the certification](https://google.accredible.com/c6ad46b8-b3f4-455c-8ec6-7517faf6fa8e), _07/2023_
 - Google Cloud Certified: Professional Cloud Architect, [link to the certification](https://www.credential.net/df38b9ad-e704-4f0f-9886-cf231bc90a13), _11/2022_
 - Nutanix Certified Associate (NCA), [link to the certification](https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url), _07/2022_
 - AWS Machine Learning Foundations, [link to the certification](https://graduation.udacity.com/confirm/6L66PRRZ), _11/2021_
