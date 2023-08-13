@@ -461,7 +461,7 @@ a batter in the process on the bat in a baseball game.<br>
 ## Endnotes
 Multimodal machine learning is a rapidly growing field with the potential to impact many different industries. As the technology continues to develop, we can expect to see even more innovative and groundbreaking applications of multimodal machine learning in the months(not years) to come.
 
-I hope this blog post has given you a better understanding of multimodal machine learning.
+Hope you enjoyed the post…
 
 ## References
 * [https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
