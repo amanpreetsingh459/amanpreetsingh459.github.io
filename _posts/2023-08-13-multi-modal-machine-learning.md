@@ -9,7 +9,7 @@ title: Multi-Modal Machine Learning - A beginner's guide
 
 * Overview: What is Multi-Modal Machine Learning?
 * How does Multi-Modal Machine Learning work?
-    * Data representation and Fusion
+    * Data representation and Fusion
 * Challenges
 * Applications
 * Code example (Image captioning)
@@ -96,7 +96,7 @@ Multimodal machine learning is a rapidly growing field with a wide range of appl
 * Virtual assistants
 * Self-driving cars
 
-### Code example (Image captioning)
+## Code example (Image captioning)
 
 **-------- Imports --------**
 
@@ -275,16 +275,16 @@ Output:
 
 Model: "model"
 
- Layer (type)               | Output Shape            |  Param #   
+ | Layer (type)               | Output Shape            |  Param #   |
 
- input_2 (InputLayer)       | [(None, 299, 299, 3)]   |  0         
+ | input_2 (InputLayer)       | [(None, 299, 299, 3)]   |  0         |
                                                                  
- inception_resnet_v2 (Functi|  (None, None, None, 1536) | 54336736 
+ | inception_resnet_v2 (Functi|  (None, None, None, 1536) | 54336736  |
  onal)                                                           
                                                                  
- reshape (Reshape)          | (None, 64, 1536)        |  0         
+ | reshape (Reshape)          | (None, 64, 1536)        |  0         |
                                                                  
- dense (Dense)              | (None, 64, 512)           786944    
+ | dense (Dense)              | (None, 64, 512)           786944    |
                                                                  
 Total params: 55,123,680
 Trainable params: 786,944
