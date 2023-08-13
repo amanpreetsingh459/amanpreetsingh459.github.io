@@ -275,16 +275,16 @@ Output:
 
 Model: "model"
 
- | Layer (type)               | Output Shape            |  Param #   |
+ Layer (type)                Output Shape              Param #   
 
- | input_2 (InputLayer)       | [(None, 299, 299, 3)]   |  0         |
+ input_2 (InputLayer)       [(None, 299, 299, 3)]     0        
                                                                  
- | inception_resnet_v2 (Functi|  (None, None, None, 1536) | 54336736  |
+ inception_resnet_v2 (Functi  (None, None, None, 1536)  54336736  
  onal)                                                           
                                                                  
- | reshape (Reshape)          | (None, 64, 1536)        |  0         |
+ reshape (Reshape)          (None, 64, 1536)          0         
                                                                  
- | dense (Dense)              | (None, 64, 512)           786944    |
+ dense (Dense)              (None, 64, 512)           786944    
                                                                  
 Total params: 55,123,680
 Trainable params: 786,944
