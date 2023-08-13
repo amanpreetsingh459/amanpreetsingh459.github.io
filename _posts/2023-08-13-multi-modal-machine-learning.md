@@ -2,7 +2,6 @@
 permalink: /multi-modal-machine-learning
 layout: post
 title: Multi-Modal Machine Learning: A beginner's guide
-
 ---
 
 # Content
