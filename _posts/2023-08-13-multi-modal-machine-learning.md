@@ -7,8 +7,8 @@ title: Multi-Modal Machine Learning - A beginner's guide
 
 # Content
 
-* [Overview: What is Multi-Modal Machine Learning?](#overview:-what-is-multi-modal-machine-learning?)
-* [How does Multi-Modal Machine Learning work?](#how-does-multi-modal-machine-learning-work?)
+* [Overview: What is Multi-Modal Machine Learning?](#overview:-what-is-multimodal-machine-learning?)
+* [How does Multi-Modal Machine Learning work?](#how-does-multimodal-machine-learning-work?)
     * [Data representation and Fusion](#data-representation-and-fusion)
 * [Challenges](#challenges)
 * [Applications](#applications)
