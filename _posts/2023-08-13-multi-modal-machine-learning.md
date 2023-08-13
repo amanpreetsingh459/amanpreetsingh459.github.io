@@ -7,14 +7,14 @@ title: Multi-Modal Machine Learning - A beginner's guide
 
 # Content
 
-* [Overview: What is Multi-Modal Machine Learning?](#Overview:-What-is-Multi-Modal-Machine-Learning?)
-* [How does Multi-Modal Machine Learning work?](#How-does-Multi-Modal-Machine-Learning-work?)
-    * [Data representation and Fusion](#Data-representation-and-Fusion)
-* [Challenges](#Challenges)
-* [Applications](#Applications)
-* [Code example - Image captioning](#Code-example---Image-captioning)
-* [Endnotes](#Endnotes)
-* [References](#References)
+* [Overview: What is Multi-Modal Machine Learning?](#overview:-what-is-multi-modal-machine-learning?)
+* [How does Multi-Modal Machine Learning work?](#how-does-multi-modal-machine-learning-work?)
+    * [Data representation and Fusion](#data-representation-and-fusion)
+* [Challenges](#challenges)
+* [Applications](#applications)
+* [Code example - Image captioning](#code-example---image-captioning)
+* [Endnotes](#endnotes)
+* [References](#references)
 
 ## Overview: What is Multi-Modal Machine Learning?
 In the past, machine learning models were typically trained on data from a single modality, such as text ([BERT](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)) or images([RESNET](https://en.wikipedia.org/wiki/Residual_neural_network)). However, as we collect more and more data from multiple sources, such as text, images, and audio, it is becoming increasingly important to develop machine learning models that can learn from data in multiple modalities. This is where multimodal machine learning comes in.
