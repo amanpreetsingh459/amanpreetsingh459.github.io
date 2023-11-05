@@ -15,7 +15,7 @@ title: Introduction and Implementation guide on llms fine-tuning using LoRA
 * [Why fine-tune LLMs?](#why-fine-tune-llms)
 * [How to fine-tune LLMs?](#how-to-fine-tune-llms)
 * [LoRA: Low Rank Adaptation](#lora-low-rank-adaptation)
-    * [A note about QLoRA: Quantized LoRA](#a-note-about-qlora-quantized-lora)
+    * [A note about QLoRA: Quantized LoRA](#a-note-about-qlora-quantized-lora)
 * [Implementation: Fine-tuning Llama 2 with LoRA](#implementation-fine-tuning-llama-2-with-lora)
 * [Endnotes](#endnotes)
 * [References](#references)
@@ -73,23 +73,23 @@ One might wonder that this still will be equal to the original number of weights
 
 So what is the `LoRA` trick here? How would it help reduce the amount of memory required to load the weights? Let's move further to get the clarification:-
 
-- The weights in any model are nothing but very big matrices of some size in the form: $nRows X nColumns$. Thus in our case both the matrices $W$ and $\Delta W$ are of the size $dXk$ (with $d$ being the number of rows and $k$ being the number of columns).
-- Now **every matrix has a rank**. The maximum number of `linearly independent` columns (or rows) of a matrix is called the rank of a matrix. `linearly dependent` means that we can get that column of the matrix by combining other columns of the matrix. For example below is a $3X3$ matrix:
+- The weights in any model are nothing but very big matrices of some size in the form: $$nRows X nColumns$$. Thus in our case both the matrices $$W$$ and $$\Delta W$$ are of the size $$dXk$$ (with $$d$$ being the number of rows and $$k$$ being the number of columns).
+- Now **every matrix has a rank**. The maximum number of `linearly independent` columns (or rows) of a matrix is called the rank of a matrix. `linearly dependent` means that we can get that column of the matrix by combining other columns of the matrix. For example below is a $$3X3$$ matrix:
 $$\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \\ 2 & 4 & 5 \end{bmatrix}$$
-In here if we multiply the first column $\begin{bmatrix} 1 \\ 2 \\ 2 \end{bmatrix}$ with $2$ we can get the second column $\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$. Thus these two columns become `linearly dependent`. And the third column remained as `linearly independent`.
-- Now if we remove the linearly dependent column $\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$, we can get this column by just multiplying the first column with $2$. In this way we do not lose any information from our matrix and the matrix dimensions have been reduced.
+In here if we multiply the first column $$\begin{bmatrix} 1 \\ 2 \\ 2 \end{bmatrix}$$ with $$2$$ we can get the second column $$\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$$. Thus these two columns become `linearly dependent`. And the third column remained as `linearly independent`.
+- Now if we remove the linearly dependent column $$\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$$, we can get this column by just multiplying the first column with $$2$$. In this way we do not lose any information from our matrix and the matrix dimensions have been reduced.
 - The trick what `LoRA` does is that it removes the linearly dependent columns from the matrix to reduce its dimensions and thus the number of parameters.
 
 In further technical terms `LoRA`'s idea is that we do not need to optimize the full rank matrices that have very high dimensions and a lot of parameters. Instead we do a low-rank decomposition in the following way:-
-- Decompose the another weight matrix $\Delta W$ of size $dXk$ into 2 different matrices of lower dimensions: $B * A$ where
-    - $B$ is a matrix of size $dXr$ and $A$ is a matrix of size $rXk$
-    - $r$ here represents the `intrinsic rank` of the matrix
-    - *For example:* Here assume $W$ is a matrix of size $100X100$ then total parameters of the matrix are: $100*100 = 10000$. With this `LoRA` trick when we decompose the matrix into 2 matrices of size (*assuming r being 3*): $(100X3)$ and $(3X100)$. They collectively make $(100*3)+(3*100)=600$ parameters.
-    - The effect of writing weight matrix $\Delta W$ as the multiplication of 2 smaller matrices $A$ and $B$ is that we reduce the dimensionality of the weight matrix through $A$ where we remove the `linearly dependent` columns and We regain the original dimensionality through $B$
-    - $r$ is to be a hyperparameter which we need to choose because we don't know what the rank of the original weight matrix $W$ is. We hopefully remove the `linearly dependent` columns through the $B * A$ decomposition. If we choose $r$ to be too small, we lose the dimensionality too much and so the information. If we choose $r$ to be too big, we will be wasting computational resources as we will be keeping too many linearly dependent columns.
-- We initialize the matrix $A$ with a *gaussian distribution* and $B$ with $0$. Then as per our fine-tuning objective function we let the backprop figure out the right set of values for matrices $A$ and $B$.
-- Thus instead of tuning the original large weight matrix $W$, we tune the much smaller $B$ and $A$ matrices.
-- After we have found the optimal weights for $B$ and $A$ we add this $B * A$ matrix to the original weight matrix to make the inference.
+- Decompose the another weight matrix $$\Delta W$$ of size $$dXk$$ into 2 different matrices of lower dimensions: $$B * A$$ where
+    - $$B$$ is a matrix of size $$dXr$$ and $$A$$ is a matrix of size $$rXk$$
+    - $$r$$ here represents the `intrinsic rank` of the matrix
+    - *For example:* Here assume $$W$$ is a matrix of size $$100X100$$ then total parameters of the matrix are: $$100*100 = 10000$$. With this `LoRA` trick when we decompose the matrix into 2 matrices of size (*assuming r being 3*): $$(100X3)$$ and $$(3X100)$$. They collectively make $$(100*3)+(3*100)=600$$ parameters.
+    - The effect of writing weight matrix $$\Delta W$$ as the multiplication of 2 smaller matrices $$A$$ and $$B$$ is that we reduce the dimensionality of the weight matrix through $$A$$ where we remove the `linearly dependent` columns and We regain the original dimensionality through $$B$$
+    - $$r$$ is to be a hyperparameter which we need to choose because we don't know what the rank of the original weight matrix $$W$$ is. We hopefully remove the `linearly dependent` columns through the $$B * A$$ decomposition. If we choose $$r$$ to be too small, we lose the dimensionality too much and so the information. If we choose $$r$$ to be too big, we will be wasting computational resources as we will be keeping too many linearly dependent columns.
+- We initialize the matrix $$A$$ with a *gaussian distribution* and $$B$$ with $$0$$. Then as per our fine-tuning objective function we let the backprop figure out the right set of values for matrices $$A$$ and $$B$$.
+- Thus instead of tuning the original large weight matrix $$W$$, we tune the much smaller $$B$$ and $$A$$ matrices.
+- After we have found the optimal weights for $$B$$ and $$A$$ we add this $$B * A$$ matrix to the original weight matrix to make the inference.
 
 ### A note about QLoRA: Quantized LoRA
 QLoRA is an even more memory efficient version of LoRA where the pretrained model is loaded to GPU memory as quantized 4-bit weights (compared to 8-bits in the case of LoRA), while preserving similar effectiveness to LoRA. QLoRa works by first quantizing the LLM to 4-bit precision. This reduces the memory footprint of the LLM, making it possible to finetune it on smaller machines with less memory. QLoRa then adds a sparse set of learnable low-rank adapter weights to the quantized model. These adapters are updated during finetuning, allowing the model to retain its original performance.
@@ -151,7 +151,7 @@ print(llama_tokenizer.pad_token)
 
 Output:-
 
-$</s>$
+$$</s>$$
 
 
 ```python
