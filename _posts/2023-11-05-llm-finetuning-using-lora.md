@@ -5,6 +5,10 @@ title: Introduction and Implementation guide on llms fine-tuning using LoRA
 
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Content
 
 * [Overview: What is llm fine-tuning?](#overview-what-is-llm-fine-tuning)
@@ -317,9 +321,9 @@ Fine-tuning is a powerful technique that can be used to improve the performance 
 Hope you enjoyed the post...
 
 ## References
-* https://arxiv.org/abs/2305.14314
-* https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/
-* https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing#scrollTo=OJXpOgBFuSrc
-* https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/fine-tuning/ft-example.ipynb
-* https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms#:~:text=QLoRA%20is%20an%20even%20more,preserving%20similar%20effectiveness%20to%20LoRA.
-* https://community.analyticsvidhya.com/c/generative-ai-tech-discussion/what-is-qlora
+* [https://arxiv.org/abs/2305.14314](https://arxiv.org/abs/2305.14314)
+* [https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/](https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/)
+* [https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing#scrollTo=OJXpOgBFuSrc](https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing#scrollTo=OJXpOgBFuSrc)
+* [https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/fine-tuning/ft-example.ipynb](https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/fine-tuning/ft-example.ipynb)
+* [https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms#:~:text=QLoRA%20is%20an%20even%20more,preserving%20similar%20effectiveness%20to%20LoRA.](https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms#:~:text=QLoRA%20is%20an%20even%20more,preserving%20similar%20effectiveness%20to%20LoRA.)
+* [https://community.analyticsvidhya.com/c/generative-ai-tech-discussion/what-is-qlora](https://community.analyticsvidhya.com/c/generative-ai-tech-discussion/what-is-qlora)
