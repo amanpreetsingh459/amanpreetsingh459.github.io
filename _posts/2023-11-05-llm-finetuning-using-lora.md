@@ -1,7 +1,7 @@
 ---
 permalink: /llm-fine-tuning-using-lora
 layout: post
-title: Introduction and Implementation guide on llms fine-tuning using LoRA
+title: Introduction and Implementation guide on LLM fine-tuning using LoRA
 
 ---
 
