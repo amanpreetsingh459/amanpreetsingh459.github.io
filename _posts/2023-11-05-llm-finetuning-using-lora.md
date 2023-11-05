@@ -75,7 +75,9 @@ So what is the `LoRA` trick here? How would it help reduce the amount of memory 
 
 - The weights in any model are nothing but very big matrices of some size in the form: $$nRows X nColumns$$. Thus in our case both the matrices $$W$$ and $$\Delta W$$ are of the size $$dXk$$ (with $$d$$ being the number of rows and $$k$$ being the number of columns).
 - Now **every matrix has a rank**. The maximum number of `linearly independent` columns (or rows) of a matrix is called the rank of a matrix. `linearly dependent` means that we can get that column of the matrix by combining other columns of the matrix. For example below is a $$3X3$$ matrix:
+
 $$\begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 7 \\ 2 & 4 & 5 \end{bmatrix}$$
+
 In here if we multiply the first column $$\begin{bmatrix} 1 \\ 2 \\ 2 \end{bmatrix}$$ with $$2$$ we can get the second column $$\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$$. Thus these two columns become `linearly dependent`. And the third column remained as `linearly independent`.
 - Now if we remove the linearly dependent column $$\begin{bmatrix} 2 \\ 4 \\ 4 \end{bmatrix}$$, we can get this column by just multiplying the first column with $$2$$. In this way we do not lose any information from our matrix and the matrix dimensions have been reduced.
 - The trick what `LoRA` does is that it removes the linearly dependent columns from the matrix to reduce its dimensions and thus the number of parameters.
