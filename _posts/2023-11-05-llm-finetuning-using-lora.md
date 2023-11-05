@@ -64,9 +64,9 @@ So retraining them(*from scratch*) can be very expensive and time-consuming. As 
 
 With `LoRA` this problem of cost has been tried to solve. It proposes a clever technique that uses matrix factorization operations which gradually reduce the amount of memory required to perform computation and to store the weights during model fine-tuning. It does this with the following steps:
 
-Let's consider original weight matrix as: $W$
+Let's consider original weight matrix as: $$W$$
 
-With `LoRA` while fine-tuning the model instead of modifying all original weights we freeze them. We do not make any changes into them. Instead we "add" a separate set of weights(let's call it $\Delta W$) to the original weights such as:-
+With `LoRA` while fine-tuning the model instead of modifying all original weights we freeze them. We do not make any changes into them. Instead we "add" a separate set of weights(let's call it $$\Delta W$$) to the original weights such as:-
 $$W + \Delta W$$
 
 One might wonder that this still will be equal to the original number of weights, just a bunch of different values.
