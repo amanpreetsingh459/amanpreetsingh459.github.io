@@ -329,3 +329,4 @@ Hope you enjoyed the post...
 * [https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/fine-tuning/ft-example.ipynb](https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/fine-tuning/ft-example.ipynb)
 * [https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms#:~:text=QLoRA%20is%20an%20even%20more,preserving%20similar%20effectiveness%20to%20LoRA.](https://www.databricks.com/blog/efficient-fine-tuning-lora-guide-llms#:~:text=QLoRA%20is%20an%20even%20more,preserving%20similar%20effectiveness%20to%20LoRA.)
 * [https://community.analyticsvidhya.com/c/generative-ai-tech-discussion/what-is-qlora](https://community.analyticsvidhya.com/c/generative-ai-tech-discussion/what-is-qlora)
+* [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
