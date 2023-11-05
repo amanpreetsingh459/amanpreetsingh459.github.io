@@ -84,11 +84,11 @@ In here if we multiply the first column $$\begin{bmatrix} 1 \\ 2 \\ 2 \end{bmatr
 
 In further technical terms `LoRA`'s idea is that we do not need to optimize the full rank matrices that have very high dimensions and a lot of parameters. Instead we do a low-rank decomposition in the following way:-
 - Decompose the another weight matrix $$\Delta W$$ of size $$dXk$$ into 2 different matrices of lower dimensions: $$B * A$$ where
-    - $$B$$ is a matrix of size $$dXr$$ and $$A$$ is a matrix of size $$rXk$$
-    - $$r$$ here represents the `intrinsic rank` of the matrix
-    - *For example:* Here assume $$W$$ is a matrix of size $$100X100$$ then total parameters of the matrix are: $$100*100 = 10000$$. With this `LoRA` trick when we decompose the matrix into 2 matrices of size (*assuming r being 3*): $$(100X3)$$ and $$(3X100)$$. They collectively make $$(100*3)+(3*100)=600$$ parameters.
-    - The effect of writing weight matrix $$\Delta W$$ as the multiplication of 2 smaller matrices $$A$$ and $$B$$ is that we reduce the dimensionality of the weight matrix through $$A$$ where we remove the `linearly dependent` columns and We regain the original dimensionality through $$B$$
-    - $$r$$ is to be a hyperparameter which we need to choose because we don't know what the rank of the original weight matrix $$W$$ is. We hopefully remove the `linearly dependent` columns through the $$B * A$$ decomposition. If we choose $$r$$ to be too small, we lose the dimensionality too much and so the information. If we choose $$r$$ to be too big, we will be wasting computational resources as we will be keeping too many linearly dependent columns.
+    - $$B$$ is a matrix of size $$dXr$$ and $$A$$ is a matrix of size $$rXk$$
+    - $$r$$ here represents the `intrinsic rank` of the matrix
+    - *For example:* Here assume $$W$$ is a matrix of size $$100X100$$ then total parameters of the matrix are: $$100*100 = 10000$$. With this `LoRA` trick when we decompose the matrix into 2 matrices of size (*assuming r being 3*): $$(100X3)$$ and $$(3X100)$$. They collectively make $$(100*3)+(3*100)=600$$ parameters.
+    - The effect of writing weight matrix $$\Delta W$$ as the multiplication of 2 smaller matrices $$A$$ and $$B$$ is that we reduce the dimensionality of the weight matrix through $$A$$ where we remove the `linearly dependent` columns and We regain the original dimensionality through $$B$$
+    - $$r$$ is to be a hyperparameter which we need to choose because we don't know what the rank of the original weight matrix $$W$$ is. We hopefully remove the `linearly dependent` columns through the $$B * A$$ decomposition. If we choose $$r$$ to be too small, we lose the dimensionality too much and so the information. If we choose $$r$$ to be too big, we will be wasting computational resources as we will be keeping too many linearly dependent columns.
 - We initialize the matrix $$A$$ with a *gaussian distribution* and $$B$$ with $$0$$. Then as per our fine-tuning objective function we let the backprop figure out the right set of values for matrices $$A$$ and $$B$$.
 - Thus instead of tuning the original large weight matrix $$W$$, we tune the much smaller $$B$$ and $$A$$ matrices.
 - After we have found the optimal weights for $$B$$ and $$A$$ we add this $$B * A$$ matrix to the original weight matrix to make the inference.
