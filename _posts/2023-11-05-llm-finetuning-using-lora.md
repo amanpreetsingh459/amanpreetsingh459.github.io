@@ -11,7 +11,7 @@ title: Introduction and Implementation guide on LLM fine-tuning using LoRA
 
 # Content
 
-* [Overview: What is llm fine-tuning?](#overview-what-is-llm-fine-tuning)
+* [Overview: What is LLM fine-tuning?](#overview-what-is-llm-fine-tuning)
 * [Why fine-tune LLMs?](#why-fine-tune-llms)
 * [How to fine-tune LLMs?](#how-to-fine-tune-llms)
 * [LoRA: Low Rank Adaptation](#lora-low-rank-adaptation)
@@ -20,8 +20,8 @@ title: Introduction and Implementation guide on LLM fine-tuning using LoRA
 * [Endnotes](#endnotes)
 * [References](#references)
 
-## Overview: What is llm fine-tuning?
-The currently available llms which are currently available such as ChatGPT, LLAMA2, Falcon etc. are very general-purpose llms. The full potential of an llm is very hard to realize with just instructions prompting and/or showing some examples as part of the prompt. And that too on the general domain data on which the llm has been trained on.
+## Overview: What is LLM fine-tuning?
+The currently available LLMs which are currently available such as ChatGPT, LLAMA2, Falcon etc. are very general-purpose LLMs. The full potential of an LLM is very hard to realize with just instructions prompting and/or showing some examples as part of the prompt. And that too on the general domain data on which the LLM has been trained on.
 
 Fine-tuning is a technique used to improve the performance of large language models (LLMs) on specific tasks or domains. It involves retraining an LLM that has already been trained on a massive dataset of general-purpose text data on a `smaller dataset of task-specific data`.
 
@@ -49,7 +49,7 @@ The fine-tuning process typically involves the following steps:
 - ***Adapter-based fine-tuning:*** This involves adding a small number of adapter modules to the LLM. This method is also called "Parameter Efficient Fine-Tuning (PEFT)". LoRA is a popular method of doing this. We will discuss LoRA in detail in the next section.
 
 ## LoRA: Low Rank Adaptation
-The **Large Language Models(llms)** as there is `large` word in the definition, are massive in size. The model parameters make up the size of the llms. Few examples of large models and their sizes:-
+The **Large Language Models(LLMs)** as there is `large` word in the definition, are massive in size. The model parameters make up the size of the LLMs. Few examples of large models and their sizes:-
 - GPT-2: 1.5-billion-parameters model
 - GPT-3: 175-billion-parameters model
 - PaLM: 540-billion-parameters model
