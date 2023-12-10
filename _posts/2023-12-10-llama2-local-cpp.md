@@ -7,7 +7,7 @@ title: Practical guide to run llama2 locally
 
 # Content
 
-* [Overview: The problem statement](#the-problem-statement)
+* [Overview: The problem statement](#overview-the-problem-statement)
 * [Quantize the llama2-7b-chat model](#quantize-the-llama2-7b-chat-model)
 * [Load and Run the model](#load-and-run-the-model)
 * [Challenges and Considerations](#challenges-and-considerations)
@@ -88,7 +88,7 @@ The future of LLMs lies in making them smaller, faster, and more accessible. Qua
 Hope you enjoyed the post...
 
 ## References
-* https://github.com/facebookresearch/llama
-* https://github.com/ggerganov/llama.cpp
-* https://medium.com/@karankakwani/build-and-run-llama2-llm-locally-a3b393c1570e
-* https://stackoverflow.com/questions/25789644/what-is-the-difference-between-using-a-makefile-and-cmake-to-compile-the-code
+* [https://github.com/facebookresearch/llama](https://github.com/facebookresearch/llama)
+* [https://github.com/ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [https://medium.com/@karankakwani/build-and-run-llama2-llm-locally-a3b393c1570e](https://medium.com/@karankakwani/build-and-run-llama2-llm-locally-a3b393c1570e)
+* [https://stackoverflow.com/questions/25789644/what-is-the-difference-between-using-a-makefile-and-cmake-to-compile-the-code](https://stackoverflow.com/questions/25789644/what-is-the-difference-between-using-a-makefile-and-cmake-to-compile-the-code)
