@@ -67,7 +67,7 @@ We are all set to run the model and `chat` with it. Run the below command to loa
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_llm-finetuning-lora/llm-local-1.png">
+<img src="/assets/images/blog_llama2-local-cpp/llm-local-1.png">
 </div>
 <br>
 
