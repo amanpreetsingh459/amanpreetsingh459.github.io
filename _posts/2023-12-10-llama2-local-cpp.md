@@ -1,7 +1,7 @@
 ---
 permalink: /llama2-local-cpp
 layout: post
-title: The Simplest way to run llama2 locally
+title: Practical guide to run llama2 locally
 
 ---
 
