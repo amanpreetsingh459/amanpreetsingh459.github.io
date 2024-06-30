@@ -53,7 +53,7 @@ title: About
 - <a href="https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url" target="_blank">Nutanix Certified Associate (NCA)</a>, _07/2022_
 - <a href="https://graduation.udacity.com/confirm/6L66PRRZ" target="_blank">AWS Machine Learning Foundations</a>, _11/2021_
 - <a href="https://graduation.udacity.com/confirm/PXDZZGRH" target="_blank">Hybrid Cloud Engineer Nanodegree</a>, _10/2020 – 02/2021_
-- Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, <a href="[https://google.accredible.com/c6ad46b8-b3f4-455c-8ec6-7517faf6fa8e](https://pypi.org/project/stat-prob-dist/)" target="_blank">https://pypi.org/project/stat-prob-dist/</a>
+- Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, <a href="https://pypi.org/project/stat-prob-dist/" target="_blank">https://pypi.org/project/stat-prob-dist/</a>
 - 4 times scholarship winner through <a href="https://www.udacity.com/" target="_blank">https://www.udacity.com/</a> :-
   1. <a href="https://www.udacity.com/scholarships/machine-learning-scholarship-microsoft-azure" target="_blank">Microsoft Machine Learning on Azure Scholarship</a>, _07/2020 – 09/2020_
   2. <a href="https://www.udacity.com/scholarships/intel-edge-ai-scholarship" target="_blank">Intel Edge AI Scholarship</a>, _01/2020 – 03/2020_
