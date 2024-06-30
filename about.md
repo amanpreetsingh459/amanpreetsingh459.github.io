@@ -53,13 +53,11 @@ title: About
 - <a href="https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url" target="_blank">Nutanix Certified Associate (NCA)</a>, _07/2022_
 - <a href="https://graduation.udacity.com/confirm/6L66PRRZ" target="_blank">AWS Machine Learning Foundations</a>, _11/2021_
 - <a href="https://graduation.udacity.com/confirm/PXDZZGRH" target="_blank">Hybrid Cloud Engineer Nanodegree</a>, _10/2020 – 02/2021_
-- Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
-- <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ" target="_blank">Data Engineering with Google Cloud Coursera Specialization</a>, _03/2020 – 05/2020_
+- Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, <a href="[https://google.accredible.com/c6ad46b8-b3f4-455c-8ec6-7517faf6fa8e](https://pypi.org/project/stat-prob-dist/)" target="_blank">https://pypi.org/project/stat-prob-dist/</a>
 - 4 times scholarship winner through <a href="https://www.udacity.com/" target="_blank">https://www.udacity.com/</a> :-
   1. <a href="https://www.udacity.com/scholarships/machine-learning-scholarship-microsoft-azure" target="_blank">Microsoft Machine Learning on Azure Scholarship</a>, _07/2020 – 09/2020_
   2. <a href="https://www.udacity.com/scholarships/intel-edge-ai-scholarship" target="_blank">Intel Edge AI Scholarship</a>, _01/2020 – 03/2020_
   3. <a href="https://www.udacity.com/facebook-AI-scholarship" target="_blank">Secure and Private AI Scholarship from Facebook</a>, _06/2019 – 08/2019_
   4. <a href="https://www.udacity.com/scholarships/facebook-pytorch-scholarship" target="_blank">PyTorch Scholarship from Facebook</a>, _11/2018 – 01/2019_
 - <a href="https://graduation.udacity.com/confirm/DWP3CWJL" target="_blank">Deep Learning Nanodegree Foundation Course</a>, _01/2017 – 05/2017_
-- <a href="https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9" target="_blank">Google Cloud Trainings</a>
 - <a href="https://www.credly.com/users/amanpreet-singh.3edf048e" target="_blank">Azure and Bigdata certifications</a>
