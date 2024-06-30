@@ -48,18 +48,18 @@ title: About
 
 ### MISCELLANEOUS
 - <a href="http://confirm.udacity.com/e/f33b7daa-cbb0-11ee-897b-e3d841172646" target="_blank">Generative AI Nanodegree</a>, _02/2024 – 06/2024_
-- Google Cloud Certified: Professional Machine Learning Engineer, [link to the certification](https://google.accredible.com/c6ad46b8-b3f4-455c-8ec6-7517faf6fa8e), _07/2023_
-- Google Cloud Certified: Professional Cloud Architect, [link to the certification](https://www.credential.net/df38b9ad-e704-4f0f-9886-cf231bc90a13), _11/2022_
-- Nutanix Certified Associate (NCA), [link to the certification](https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url), _07/2022_
-- AWS Machine Learning Foundations, [link to the certification](https://graduation.udacity.com/confirm/6L66PRRZ), _11/2021_
-- Hybrid Cloud Engineer Nanodegree, [link to the certification](https://graduation.udacity.com/confirm/PXDZZGRH), _10/2020 – 02/2021_
+- <a href="https://google.accredible.com/c6ad46b8-b3f4-455c-8ec6-7517faf6fa8e" target="_blank">Google Cloud Certified: Professional Machine Learning Engineer</a>, _07/2023_
+- <a href="https://www.credential.net/df38b9ad-e704-4f0f-9886-cf231bc90a13" target="_blank">Google Cloud Certified: Professional Cloud Architect</a>, _11/2022_
+- <a href="https://www.credly.com/badges/ebd0478f-8340-4f51-818c-65666a6cd818/public_url" target="_blank">Nutanix Certified Associate (NCA)</a>, _07/2022_
+- <a href="https://graduation.udacity.com/confirm/6L66PRRZ" target="_blank">AWS Machine Learning Foundations</a>, _11/2021_
+- <a href="https://graduation.udacity.com/confirm/PXDZZGRH" target="_blank">Hybrid Cloud Engineer Nanodegree</a>, _10/2020 – 02/2021_
 - Created a python library &quot;stat-prob-dist&quot; which provides methods to simplify the statistical and probabilistic distributions, [https://pypi.org/project/stat-prob-dist/](https://pypi.org/project/stat-prob-dist/)
-- Data Engineering with Google Cloud Coursera Specialization, [Go to the link](https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ), _03/2020 – 05/2020_
-- 4 times scholarship winner through [https://www.udacity.com/](https://www.udacity.com/) :-
-  1. Microsoft Machine Learning on Azure Scholarship, [Go to the link](https://www.udacity.com/scholarships/machine-learning-scholarship-microsoft-azure), _07/2020 – 09/2020_
-  2. Intel Edge AI Scholarship, [Go to the link](https://www.udacity.com/scholarships/intel-edge-ai-scholarship), _01/2020 – 03/2020_
-  3. Secure and Private AI Scholarship from Facebook, [Go to the link](https://www.udacity.com/facebook-AI-scholarship), _06/2019 – 08/2019_
-  4. PyTorch Scholarship from Facebook, [Go to the link](https://www.udacity.com/scholarships/facebook-pytorch-scholarship), _11/2018 – 01/2019_
-- Deep Learning Nanodegree Foundation Course, [link to the certification](https://graduation.udacity.com/confirm/DWP3CWJL), _01/2017 – 05/2017_
-- Google Cloud Badges: [https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9](https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9)
-- [Azure and Bigdata certifications](https://www.credly.com/users/amanpreet-singh.3edf048e)
+- <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8NZY9FBH7VMQ" target="_blank">Data Engineering with Google Cloud Coursera Specialization</a>, _03/2020 – 05/2020_
+- 4 times scholarship winner through <a href="https://www.udacity.com/" target="_blank">https://www.udacity.com/</a> :-
+  1. <a href="https://www.udacity.com/scholarships/machine-learning-scholarship-microsoft-azure" target="_blank">Microsoft Machine Learning on Azure Scholarship</a>, _07/2020 – 09/2020_
+  2. <a href="https://www.udacity.com/scholarships/intel-edge-ai-scholarship" target="_blank">Intel Edge AI Scholarship</a>, _01/2020 – 03/2020_
+  3. <a href="https://www.udacity.com/facebook-AI-scholarship" target="_blank">Secure and Private AI Scholarship from Facebook</a>, _06/2019 – 08/2019_
+  4. <a href="https://www.udacity.com/scholarships/facebook-pytorch-scholarship" target="_blank">PyTorch Scholarship from Facebook</a>, _11/2018 – 01/2019_
+- <a href="https://graduation.udacity.com/confirm/DWP3CWJL" target="_blank">Deep Learning Nanodegree Foundation Course</a>, _01/2017 – 05/2017_
+- <a href="https://google.qwiklabs.com/public_profiles/4f352564-8e87-4473-b31f-bccfda467ac9" target="_blank">Google Cloud Trainings</a>
+- <a href="https://www.credly.com/users/amanpreet-singh.3edf048e" target="_blank">Azure and Bigdata certifications</a>
