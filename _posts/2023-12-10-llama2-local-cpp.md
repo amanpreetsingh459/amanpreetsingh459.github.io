@@ -2,6 +2,7 @@
 permalink: /llama2-local-cpp
 layout: post
 title: Practical guide to run llama2 locally
+excerpt: Get the power of LLMs in your local system
 
 ---
 
