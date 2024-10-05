@@ -17,7 +17,7 @@ title: About
 #### Consultant – Data Science
 *Infosys, 02/2019 - 08/2022*
 - As company’s central automation team member finding the opportunities of automation into different accounts. Then building the same end-to-end using data-driven approaches
-- Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: <a href="https://www.aclweb.org/anthology/2020.wmt-1.52/" target="_blank">https://www.aclweb.org/anthology/2020.wmt-1.52/</a>
+- Winner of the EMNLP 2020, FIFTH CONFERENCE ON MACHINE TRANSLATION (WMT20) competition in the similar language translation task category. Link to the published paper of solution: <a href="https://www.aclweb.org/anthology/2020.wmt-1.52/" target="_blank">https://www.aclweb.org/anthology/2020.wmt-1.52/</a>. Awarded Patent for this work in India *(Application number: 202041050659)* and in US <a href="https://www.patentguru.com/US11875141B2" target="_blank">https://www.patentguru.com/US11875141B2</a>.
 - Deployed multiple pre-trained text-classification models as rest endpoints
 - Developed an email classification model and deployed it as an add-in in MS Outlook. This helped with quick decision-making about the trading functions
 
