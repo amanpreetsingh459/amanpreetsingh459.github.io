@@ -13,7 +13,7 @@ title: The AI Language Journey - From Characters to Agentic Minds
 * [The Rise of Neural Networks: Learning Connections](#the-rise-of-neural-networks-learning-connections)
 * [The Transformer Revolution: Parallel Processing Power](#the-transformer-revolution-parallel-processing-power)
 * [Generative Models: From Understanding to Creating](#generative-models-from-understanding-to-creating)
-* [The Future is Agentic: AI with Purpose](#the-future-is-agentic-ai-with-purpose)
+* [The Present(not future) is Agentic: AI with Purpose](#the-presentnot-future-is-agentic-ai-with-purpose)
 * [The Road Ahead](#the-road-ahead)
 * [References and Credits](#references-and-credits)
 
@@ -125,7 +125,7 @@ With Transformers, AI wasn't just understanding language; it was starting to gen
 
 
 
-## The Future is Agentic: AI with Purpose
+## The Present(not future) is Agentic: AI with Purpose
 
 The latest frontier in AI is **Agentic AI**, moving beyond simply generating text to enabling AI to plan, reason, and execute complex tasks.
 
