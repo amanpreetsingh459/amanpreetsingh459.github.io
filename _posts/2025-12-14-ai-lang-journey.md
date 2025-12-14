@@ -40,7 +40,7 @@ To move beyond individual characters, AI needed to start understanding words. Th
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/bow.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/bow.png">
 </div>
 <br>
 
