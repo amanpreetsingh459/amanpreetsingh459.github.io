@@ -1,3 +1,10 @@
+---
+permalink: /ai-lang-journey
+layout: post
+title: The AI Language Journey - From Characters to Agentic Minds
+
+---
+
 # Content
 
 * [Overview](#overview)
@@ -8,7 +15,7 @@
 * [Generative Models: From Understanding to Creating](#generative-models-from-understanding-to-creating)
 * [The Future is Agentic: AI with Purpose](#the-future-is-agentic-ai-with-purpose)
 * [The Road Ahead](#the-road-ahead)
-* [References](#references)
+* [References](#references-&-credits)
 
 
 ## Overview
@@ -33,7 +40,7 @@ To move beyond individual characters, AI needed to start understanding words. Th
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/bow.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/bow.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -45,7 +52,7 @@ TF-IDF helps identify words that are significant to a particular document, makin
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/tfidf.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/tfidf.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -60,7 +67,7 @@ The advent of neural networks marked a paradigm shift. Inspired by the human bra
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/nn.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/nn.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -71,7 +78,7 @@ The advent of neural networks marked a paradigm shift. Inspired by the human bra
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/rnn.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/rnn.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -81,7 +88,7 @@ However, RNNs struggled with long sequences, often forgetting information from t
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/rnnattn.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/rnnattn.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -96,7 +103,7 @@ While attention improved RNNs, they were still sequential in nature. The next bi
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/tsfr.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/tsfr.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -111,7 +118,7 @@ With Transformers, AI wasn't just understanding language; it was starting to gen
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/gen.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/genai.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -134,7 +141,7 @@ It doesn't stop there: it can automatically book the tickets (within your pre-se
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/agentic.jpeg" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/agenticai.png" width="800" height="500" text-align="center">
 </div>
 <br>
 
@@ -147,11 +154,8 @@ The journey of AI in language processing has been nothing short of astonishing. 
 
 The future of Agentic AI promises to redefine how we work, learn, and live, making complex tasks simpler and unleashing new possibilities for innovation. While challenges remain, the progress so far is a testament to human ingenuity and the boundless potential of artificial intelligence.
 
-## References
+## References & Credits
 
-* Learn more about Transformers: [https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/illustrated-transformer/)  
-* Explore the power of LLMs: [https://openai.com/blog/chatgpt](https://openai.com/blog/chatgpt)  
-* Understand Agentic AI: [https://www.deeplearning.ai/the-batch/langchain-agents-the-next-big-thing-in-llms/](https://www.google.com/search?q=https://www.deeplearning.ai/the-batch/langchain-agents-the-next-big-thing-in-llms/)
-
-
+* [Transformers Paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+* Image credits: [https://gemini.google.com/](https://gemini.google.com/app)
 
