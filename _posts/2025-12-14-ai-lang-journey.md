@@ -15,7 +15,7 @@ title: The AI Language Journey - From Characters to Agentic Minds
 * [Generative Models: From Understanding to Creating](#generative-models-from-understanding-to-creating)
 * [The Future is Agentic: AI with Purpose](#the-future-is-agentic-ai-with-purpose)
 * [The Road Ahead](#the-road-ahead)
-* [References](#references-&-credits)
+* [References and Credits](#references-and-credits)
 
 
 ## Overview
@@ -154,7 +154,7 @@ The journey of AI in language processing has been nothing short of astonishing. 
 
 The future of Agentic AI promises to redefine how we work, learn, and live, making complex tasks simpler and unleashing new possibilities for innovation. While challenges remain, the progress so far is a testament to human ingenuity and the boundless potential of artificial intelligence.
 
-## References & Credits
+## References and Credits
 
 * [Transformers Paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 * Image credits: [https://gemini.google.com/](https://gemini.google.com/app)
