@@ -52,7 +52,7 @@ TF-IDF helps identify words that are significant to a particular document, makin
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/tfidf.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/tfidf.png">
 </div>
 <br>
 
@@ -67,7 +67,7 @@ The advent of neural networks marked a paradigm shift. Inspired by the human bra
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/nn.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/nn.png">
 </div>
 <br>
 
@@ -78,7 +78,7 @@ The advent of neural networks marked a paradigm shift. Inspired by the human bra
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/rnn.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/rnn.png">
 </div>
 <br>
 
@@ -88,7 +88,7 @@ However, RNNs struggled with long sequences, often forgetting information from t
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/rnnattn.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/rnnattn.png">
 </div>
 <br>
 
@@ -103,7 +103,7 @@ While attention improved RNNs, they were still sequential in nature. The next bi
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/tsfr.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/tsfr.png">
 </div>
 <br>
 
@@ -118,7 +118,7 @@ With Transformers, AI wasn't just understanding language; it was starting to gen
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/genai.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/genai.png">
 </div>
 <br>
 
@@ -141,7 +141,7 @@ It doesn't stop there: it can automatically book the tickets (within your pre-se
 
 <br>
 <div class="imgcap">
-<img src="/assets/images/blog_ai-lang-journey/agenticai.png" width="800" height="500" text-align="center">
+<img src="/assets/images/blog_ai-lang-journey/agenticai.png">
 </div>
 <br>
 
