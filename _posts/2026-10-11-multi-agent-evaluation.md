@@ -5,6 +5,11 @@ title: A Practical Guide to Evaluating Multi-Agent LLM Systems in Production
 
 ---
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
 # Content
 
 - [Overview](#overview)
@@ -80,7 +85,8 @@ Standard metrics like ROUGE or basic semantic similarity are insufficient here. 
 
 Before we look at the code, you must understand the architecture of a production multi-agent evaluation pipeline. It requires asynchronous capture of traces, extraction of intermediate agent states, scoring via LLM-based evaluators, and aggregation into a telemetry dashboard.
 
-```mermaid
+<div class="mermaid">
+    
 graph TD
     subgraph Production Environment
         U[User Request] --> S[Supervisor Agent]
@@ -89,13 +95,11 @@ graph TD
         A1 <--> |Debate/State Sync| A2
         A2 --> R[Final Response]
     end
-
     subgraph Tracing & Ingestion
         S -.-> |Trace Payload| T[Trace Datastore e.g., LangSmith/Phoenix]
         A1 -.-> |Trace Payload| T
         A2 -.-> |Trace Payload| T
     end
-
     subgraph Offline Evaluation Pipeline
         T --> |Extract Trajectories| D[Eval Dataset]
         D --> E1[Deterministic Evaluators: Schema, Latency, Cost]
@@ -103,7 +107,6 @@ graph TD
         D --> E3[LLM Judge: Role Adherence]
         D --> E4[LLM Judge: End-to-End Success]
     end
-
     subgraph Telemetry & Alerting
         E1 --> M[Metrics Dashboard]
         E2 --> M
@@ -111,8 +114,7 @@ graph TD
         E4 --> M
         M --> |Alert on degradation| Alert[PagerDuty / Slack]
     end
-
-```
+</div>
 
 ## Implementation Guide: Runnable End-to-End Evaluation Code
 
