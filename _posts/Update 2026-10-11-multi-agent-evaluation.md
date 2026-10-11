@@ -27,6 +27,7 @@ To build production-grade multi-agent architectures, you need an evaluation fram
 <img src="/assets/images/blog_multi-agent-evaluation/maeval.jpeg">
 </div>
 <br>
+
 Image credits: [https://gemini.google.com/](https://gemini.google.com/app)
 
 ## The 4 Layers of Multi-Agent Evaluation
@@ -472,8 +473,3 @@ Deploying and testing multi-agent swarms in production reveals recurring failure
 Evaluating multi-agent LLM systems requires shifting from flat input/output assertions to distributed graph tracing. When agents interact autonomously, failure does not occur solely at the final output—it manifests in bloated message payloads, lazy delegations, circular debates, and compounding reasoning errors across state transitions.
 
 By instrumenting granular parent-child spans, placing LLM judges on intermediate handoffs, and evaluating across component, trajectory, interaction, and end-to-end layers, you transform multi-agent systems from unpredictable token sinks into resilient, production-ready architectures.
-
-
-```python
-
-```
