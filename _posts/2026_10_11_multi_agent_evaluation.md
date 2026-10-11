@@ -27,6 +27,7 @@ To build production-grade multi-agent architectures, you need an evaluation fram
 <img src="/assets/images/blog_multi-agent-evaluation/maeval.jpeg">
 </div>
 <br>
+Image credits: [https://gemini.google.com/](https://gemini.google.com/app)
 
 ## The 4 Layers of Multi-Agent Evaluation
 
@@ -373,6 +374,8 @@ To understand the practical value of an interaction-level evaluation pipeline, l
 When running the multi-agent graph with an unconstrained researcher agent `run_failing_pipeline()`, the intermediate payload looks like this:
 
 ```python
+Output with: run_failing_pipeline()
+
 ============================================================
 🚨 EXECUTING UNVALIDATED PIPELINE (REPRODUCING 2/5 EVAL FAILURE)
 ============================================================
@@ -421,6 +424,8 @@ Judge Reasoning:   The handoff payload contains raw HTML tags, boilerplate marku
 Once we enforce an explicit data-cleaning and extraction step within the Researcher node `run_pipeline(sanitize_state=True)`, the telemetry transforms completely:
 
 ```python
+
+Output with: run_pipeline(sanitize_state=True)
 
 [1] Initiating pipeline with query: 'What are the Q3 2023 earnings highlights for Apple?'
 -> [Execution] Researcher Agent is running...
