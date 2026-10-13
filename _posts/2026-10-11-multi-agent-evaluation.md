@@ -156,7 +156,7 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langchain_core.messages import HumanMessage, AIMessage
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD4_VFAr9G7KjMrB0RYMEeKBBHMhb1eMWA"
+os.environ["GOOGLE_API_KEY"] = "your-google-api-key"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "multi-agent-prod-eval"
 os.environ["LANGCHAIN_API_KEY"] = "lsv2_your-langsmith-api-key"
